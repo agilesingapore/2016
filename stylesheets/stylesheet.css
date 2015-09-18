@@ -59,6 +59,10 @@ h2 {
   background-size: 90%;
 }
 
+.branding h1 a {
+  display: block;
+}
+
 @media screen and (min-width: 30em) {
   .branding h1 {
     background-size: 100%;
@@ -94,10 +98,23 @@ h2 {
   text-align: center;
 }
 
+@media screen and (min-width: 60em) {
+  .site-description h2 {
+    margin: 1em auto;
+    max-width: 40em;
+  }
+}
+
 .main-content {
   margin: 0 auto;
   width: 90%;
   text-align: center;
+}
+
+@media screen and (min-width: 60em) {
+  .main-content {
+    max-width: 60em;
+  }
 }
 
 .site-footer {
@@ -105,13 +122,17 @@ h2 {
   padding: 1rem 0 0 0;
   border-top: solid 1px #ddd;
 }
-
+.site-footer ul {
+  margin: 0 auto;
+  padding: 0;
+}
 .site-footer li {
   list-style: none;
-  float: left;
   margin: 0 1.5em 0 0;
+  text-align: center;
+  display: inline-block;
+  padding: 0;
 }
-
 @media screen and (min-width: 64em) {
   .site-footer {
     font-size: 1rem;
@@ -128,19 +149,22 @@ h2 {
   }
 }
 #mc_embed_signup {
-  background: #fff;
   clear: left;
-  font: 14px Helvetica, Arial, sans-serif;
+
 }
 
-/* MailChimp Form Embed Code - Classic - 08/17/2011 */
+@media screen and (min-width: 60em) {
+  #mc_embed_signup {
+    margin: 0 auto;
+  }
+}
 
 #mc_embed_signup form {
   display: block;
   position: relative;
   text-align: left;
-  padding: 10px 0 10px 3%
 }
+
 #mc_embed_signup h2 {
   font-weight: bold;
   padding: 0;
@@ -170,7 +194,7 @@ h2 {
   display: inline-block;
   font-size: 15px;
   font-weight: bold;
-  height: 32px;
+  height: 40px;
   line-height: 32px;
   margin: 0 5px 10px 0;
   padding: 0 22px;
@@ -178,10 +202,11 @@ h2 {
   text-decoration: none;
   vertical-align: top;
   white-space: nowrap;
-  width: 95%;
+  width: 100%;
+  transition: background-color 0.5s;
 }
 #mc_embed_signup .button:hover {
-  background-color: #777;
+  background-color: #9F1116;
 }
 #mc_embed_signup .small-meta {
   font-size: 11px;
@@ -192,7 +217,7 @@ h2 {
 #mc_embed_signup .mc-field-group {
   clear: left;
   position: relative;
-  width: 96%;
+  width: 100%;
   padding-bottom: 3%;
   min-height: 50px;
 }
@@ -217,6 +242,24 @@ h2 {
   padding: 8px 0;
   text-indent: 2%;
 }
+
+#mc_embed_signup .mc-submit {
+  clear: both;
+}
+
+@media screen and (min-width: 40em) {
+  #mc_embed_signup .mc-field-group,
+  #mc_embed_signup .mc-submit {
+    display: inline-block;
+    width: 35%;
+  }
+  #mc_embed_signup .mc-submit {
+    width: 28%;
+    clear: none;
+    vertical-align: middle;
+    margin: 5px 0 0 0;
+  }
+}
 #mc_embed_signup .mc-field-group select {
   display: inline-block;
   width: 99%;
@@ -226,7 +269,8 @@ h2 {
 #mc_embed_signup .datefield, #mc_embed_signup .phonefield-us {
   padding: 5px 0;
 }
-#mc_embed_signup .datefield input, #mc_embed_signup .phonefield-us input {
+#mc_embed_signup .datefield input,
+#mc_embed_signup .phonefield-us input {
   display: inline;
   width: 60px;
   margin: 0 2px;
@@ -244,9 +288,9 @@ h2 {
   display: none;
 }
 #mc_embed_signup .indicates-required {
-  text-align: right;
+  text-align: center;
   font-size: 11px;
-  margin-right: 4%;
+  margin: 0 0 1em;
 }
 #mc_embed_signup .asterisk {
   color: #c60;
@@ -254,7 +298,7 @@ h2 {
 }
 #mc_embed_signup .mc-field-group .asterisk {
   position: absolute;
-  top: 7px;
+  top: 0px;
   right: 10px;
 }
 #mc_embed_signup .clear {
