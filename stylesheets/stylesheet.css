@@ -118,7 +118,7 @@ h2 {
 }
 
 .site-footer {
-  margin: 1rem 0 0 0;
+  margin: 1rem 0 3em 0;
   padding: 1rem 0 0 0;
   border-top: solid 1px #ddd;
 }
@@ -150,9 +150,7 @@ h2 {
 }
 #mc_embed_signup {
   clear: left;
-
 }
-
 @media screen and (min-width: 60em) {
   #mc_embed_signup {
     margin: 0 auto;
@@ -173,6 +171,7 @@ h2 {
 }
 #mc_embed_signup input {
   border: 1px solid #999;
+  border-radius: 5px;
   -webkit-appearance: none;
 }
 #mc_embed_signup input[type=checkbox] {
@@ -254,10 +253,9 @@ h2 {
     width: 35%;
   }
   #mc_embed_signup .mc-submit {
-    width: 28%;
+    width: 25%;
     clear: none;
-    vertical-align: middle;
-    margin: 5px 0 0 0;
+    vertical-align: top;
   }
 }
 #mc_embed_signup .mc-field-group select {
