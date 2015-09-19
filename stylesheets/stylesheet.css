@@ -4,7 +4,7 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Ubuntu", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   color: #606c71;
@@ -47,16 +47,25 @@ h2 {
 }
 .branding {
   text-align: center;
-  padding: 1.5em 1em;
+  padding: 1em;
 }
 
 .branding h1 {
-  width: 366px;
-  height: 78px;
+  width: 90%;
+  min-height: 78px;
   margin: 0 auto;
   text-indent: -9999px;
   background: url("../images/agilesg2016_logo.png") no-repeat center center;
   background-size: 90%;
+}
+
+@media screen and (min-width: 30em) {
+  .branding {
+    padding: 1.5em;
+  }
+  .branding h1 {
+    width: 366px;
+  }
 }
 
 .branding h1 a {
