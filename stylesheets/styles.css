@@ -5890,16 +5890,57 @@ a:hover {
   .site-description h2 {
     font-weight: normal;
     font-size: 1.2em;
-    line-height: 1.2;
+    line-height: 1.5;
     margin: 0;
     padding: 0; }
 
 .main-content {
-  text-align: center; }
+  border: 1px solid green; }
 
-.main-content {
+.speakers {
+  padding: 2em 0; }
+  .speakers h3 {
+    text-align: center;
+    margin: 0 0 1.2em 0; }
+
+.speakers-row ul, .speakers-row li {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+.speakers-row li {
+  text-align: center; }
+.speakers-row .speaker-photo {
+  margin: 0 0 10px 0; }
+  .speakers-row .speaker-photo img {
+    width: 50%;
+    height: inherit;
+    border-radius: 50%; }
+.speakers-row .speaker-bio {
+  font-size: 0.9em; }
+  .speakers-row .speaker-bio .speaker-name {
+    font-weight: bold;
+    font-size: 1.1em; }
+
+.speakers .empty {
   text-align: center;
-  margin: 2rem 0 0 0; }
+  margin: 0 auto;
+  font-style: italic;
+  font-weight: bold;
+  color: #EC1D24;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .speakers .empty p {
+    margin-top: 20%; }
+
+.notify {
+  text-align: center;
+  padding: 2em 0 1em;
+  border-top: 1px solid #ddd;
+  background: #eee; }
+  .notify h3 {
+    margin: 0 0 1em 0;
+    font-size: 1em; }
 
 #mc_embed_signup {
   clear: left; }
@@ -6114,9 +6155,10 @@ a:hover {
   font-weight: bold; }
 
 .site-footer {
-  margin: 1rem 0 3em 0;
-  padding: 1rem 0 0 0;
-  border-top: solid 1px #ddd; }
+  margin: 0 0 3em 0;
+  padding: 2rem 0 0 0;
+  border-top: solid 1px #ddd;
+  text-align: center; }
 
 .site-footer ul {
   margin: 0 auto;
