@@ -1,0 +1,72 @@
+.branding {
+  text-align: center;
+  padding: 1em;
+}
+
+.branding h1 {
+  width: 90%;
+  min-height: 78px;
+  margin: 0 auto;
+  text-indent: -9999px;
+  background: url("../images/agilesg2016_logo.png") no-repeat center center;
+  background-size: 90%;
+}
+
+@media screen and (min-width: 30em) {
+  .branding {
+    padding: 1.5em;
+  }
+  .branding h1 {
+    width: 366px;
+  }
+}
+
+.branding h1 a {
+  display: block;
+}
+
+@media screen and (min-width: 30em) {
+  .branding h1 {
+    background-size: 100%;
+  }
+}
+
+.page-masthead {
+  color: #fff;
+  text-align: center;
+  background: url("../images/agilesg2016_masthead_640.jpg") no-repeat center top;
+  min-height: 200px;
+}
+
+@media screen and (min-width: 40em) {
+  .page-masthead {
+    background: url("../images/agilesg2016_masthead_1280.jpg") no-repeat center top;
+    min-height: 400px;
+  }
+}
+
+@media screen and (min-width: 80em) {
+  .page-masthead {
+    background: url("../images/agilesg2016_masthead_1920.jpg") no-repeat center top;
+    min-height: 600px;
+  }
+}
+
+.site-description {
+  background: #EC1D24;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+
+  h2 {
+    font-weight: normal;
+    font-size: 1.2em;
+    line-height: 1.2;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.main-content {
+  text-align: center;
+}

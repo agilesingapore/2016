@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Ubuntu", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: $agilesg-grey;
+}
+a {
+  color: $agilesg-red;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 64em) {
+  .btn {
+    padding: 0.75rem 1rem;
+  }
+}
+@media screen and (min-width: 42em) and (max-width: 64em) {
+  .btn {
+    padding: 0.6rem 0.9rem;
+    font-size: 0.9rem;
+  }
+}
+@media screen and (max-width: 42em) {
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 0.9rem;
+  }
+  .btn + .btn {
+    margin-top: 1rem;
+    margin-left: 0;
+  }
+}

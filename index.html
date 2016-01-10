@@ -10,10 +10,10 @@
   <link rel="apple-touch-icon" sizes="114x114" href="/images/apple-touch-icon-114.png">
   <link rel="apple-touch-icon" sizes="72x72" href="/images/apple-touch-icon-144.png">
   <link rel="apple-touch-icon" sizes="144x144" href="/images/apple-touch-icon-144.png">
-  <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
   <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+  <link rel="stylesheet" type="text/css" href="stylesheets/styles.css" media="screen">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
   <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
   <script type='text/javascript'>
     (function($) {
@@ -31,20 +31,34 @@
 </head>
 
 <body>
-  <section class="branding">
+  <section class="row branding">
+  <div class="container">
+    <div class="col-12">
     <h1 class="logo"><a href="/">Agile Singapore Conference 2016</a></h1>
+  </div>
+  </div>
   </section>
-  <section class="page-masthead">
-
+  <section class="row page-masthead">
+    <div class="container">
+      <div class="col-6 speakers first">
+        
+      </div>
+      <div class="col-6 speakers last">
+      </div>
+    </div>
   </section>
-  <div class="site-description">
+  <div class="row site-description">
+    <div class="container">
     <h2>
       <strong>6-7 October, 2016</strong>
       <br /> A regional conference on Agile practices, craftsmanship and organisation improvement. Dedicated to developers, managers and executives.</h2>
+    </div>
   </div>
 
-  <section class="main-content">
-    <p>Sign up to our mailing list and be the first to get notified about the conference details when its ready.</p>
+  <section class="row main-content">
+    <div class="container">
+    <div class="col-12">
+      <p>Sign up to our mailing list and be the first to get notified about the conference details when its ready.</p>
     <div class="subscribe">
       <!-- Begin MailChimp Signup Form -->
       <div id="mc_embed_signup">
@@ -76,8 +90,12 @@
 
       <!--End mc_embed_signup-->
     </div>
+    </div>
+  </div>
 
-    <footer class="site-footer">
+    <footer class="row site-footer">
+      <div class="container">
+        <div class="col-12">
       <p>The <a href="http://2016.agilesingapore.org">Agile Singapore conference</a> is organised by a group of passionate individuals who also organises the <a href="http://meetup.com/Agile-Singapore" onClick="ga('send','event','website','click','Agile SG Meetup',0);">monthly Agile meetups in Singapore</a>. Feel free to <a href="mailto: organisers@agilesingapore.org" onClick="ga('send','event','email','click','Get in touch',0);">get
         in touch</a> with us if you have any questions! </p>
         <p>
@@ -94,7 +112,8 @@
         <li><a href="http://fb.com/AgileSingapore" onClick="ga('send','event','social','click','Facebook',0);"><i class="fa fa-facebook"></i> fb.com/AgileSingapore</a></li>
         <li><a href="http://twitter.com/agilesgorg" onClick="ga('send','event','social','click','Twitter',0);"><i class="fa fa-twitter"></i> @agilesgorg</a></li>
       </ul>
-
+      </div>
+    </div>
     </footer>
   </section>
 
