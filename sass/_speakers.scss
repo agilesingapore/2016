@@ -1,0 +1,52 @@
+.speakers {
+  padding: 2em 0;
+
+  h3 {
+    text-align: center;
+    margin: 0 0 1.2em 0;
+  }
+}
+
+.speakers-row {
+  ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    text-align: center;
+  }
+  .speaker-photo {
+    margin: 0 0 10px 0;
+    img {
+      width: 50%;
+      height: inherit;
+      border-radius: 50%;
+    }
+  }
+  .speaker-bio {
+    font-size: 0.9em;
+    
+    .speaker-name {
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+  }
+}
+
+.speakers .empty {
+  text-align: center;
+  margin: 0 auto;
+  font-style: italic;
+  font-weight: bold;
+  color: $agilesg-red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  p {
+  margin-top: 20%;
+  }
+}
+
+
