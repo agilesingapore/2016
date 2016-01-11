@@ -1,10 +1,10 @@
-
 .jumbotron {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/new_mast.jpg") no-repeat center top;
+  background-size: cover;
   margin-bottom: 0;
   color: white;
+  min-height: 500px;
 }
-
 
 .jumbotron {
   padding: 2em 0; }
@@ -22,7 +22,7 @@
   margin: 0 0 10px 0; }
 
 .speakers-row .speaker-photo img {
-    width: 30%;
+    width: 25%;
     height: inherit;
     border-radius: 50%;
     border: 2px solid; }
@@ -38,7 +38,7 @@
   margin: 0 auto;
   font-style: italic;
   font-weight: bold;
-  color: #EC1D24;
+  
   display: flex;
   justify-content: center;
   align-items: center; }
