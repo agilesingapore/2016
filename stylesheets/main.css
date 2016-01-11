@@ -24,10 +24,12 @@
 .speakers-row .speaker-photo img {
     width: 30%;
     height: inherit;
-    border-radius: 50%; }
+    border-radius: 50%;
+    border: 2px solid; }
 .speakers-row .speaker-bio {
   font-size: 0.9em; }
-  .speakers-row .speaker-bio .speaker-name {
+
+.speakers-row .speaker-bio .speaker-name {
     font-weight: bold;
     font-size: 1.1em; }
 
