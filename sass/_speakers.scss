@@ -19,9 +19,10 @@
   .speaker-photo {
     margin: 0 0 10px 0;
     img {
-      width: 50%;
+      width: 23%;
       height: inherit;
       border-radius: 50%;
+      border: 2px solid;
     }
   }
   .speaker-bio {
@@ -48,5 +49,3 @@
   margin-top: 20%;
   }
 }
-
-

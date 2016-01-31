@@ -5894,8 +5894,66 @@ a:hover {
     margin: 0;
     padding: 0; }
 
+.jumbotron {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/new_mast.jpg") no-repeat center top;
+  background-size: cover;
+  margin-bottom: 0;
+  color: white;
+  min-height: 500px;
+  padding: 2em 0; }
+  .jumbotron h3 {
+    text-align: center;
+    margin: 0 0 1.2em 0; }
+  .jumbotron .empty {
+    text-align: center;
+    margin: 0 auto;
+    font-style: italic;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .jumbotron .empty p {
+      margin-top: 20%; }
+
 .main-content {
   border: 1px solid green; }
+
+.speakers {
+  padding: 2em 0; }
+  .speakers h3 {
+    text-align: center;
+    margin: 0 0 1.2em 0; }
+
+.speakers-row ul, .speakers-row li {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+.speakers-row li {
+  text-align: center; }
+.speakers-row .speaker-photo {
+  margin: 0 0 10px 0; }
+  .speakers-row .speaker-photo img {
+    width: 23%;
+    height: inherit;
+    border-radius: 50%;
+    border: 2px solid; }
+.speakers-row .speaker-bio {
+  font-size: 0.9em; }
+  .speakers-row .speaker-bio .speaker-name {
+    font-weight: bold;
+    font-size: 1.1em; }
+
+.speakers .empty {
+  text-align: center;
+  margin: 0 auto;
+  font-style: italic;
+  font-weight: bold;
+  color: #EC1D24;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .speakers .empty p {
+    margin-top: 20%; }
 
 .notify {
   text-align: center;
