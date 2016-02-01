@@ -1,0 +1,8 @@
+.sponsors {
+  background: #f2f2f2;
+  @include rhythm-padding(1);
+
+  .col-sm-6 {
+    text-align: center;
+  }
+}

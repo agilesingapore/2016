@@ -1,6 +1,7 @@
 // Import Bootstrap Compass integration
 @import "bootstrap-compass";
-
+@import "compass/typography/vertical_rhythm";
+@import "compass/utilities";
 // Import custom Bootstrap variables
 @import "bootstrap-variables";
 
@@ -9,13 +10,12 @@
 
 // Import custom helpers
 @import "mixin";
-@import "variables";
 
 // Import app specific styles
 @import "global";
-@import "branding";
-@import "jumbotron";
+@import "header";
+@import "mailchimp";
 @import "content";
 @import "speakers";
-@import "mailchimp";
+@import "sponsors";
 @import "footer";

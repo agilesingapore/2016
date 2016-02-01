@@ -47,14 +47,24 @@
 // $font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace
 // $font-family-base:        $font-family-sans-serif
 
-// $font-size-base:          14px
-// $font-size-large:         ceil(($font-size-base * 1.25)) // ~18px
-// $font-size-small:         ceil(($font-size-base * 0.85)) // ~12px
+$base-font-size: 16px;
+$base-line-height: 24px;
 
-// $font-size-h1:            floor(($font-size-base * 2.6)) // ~36px
-// $font-size-h2:            floor(($font-size-base * 2.15)) // ~30px
-// $font-size-h3:            ceil(($font-size-base * 1.7)) // ~24px
-// $font-size-h4:            ceil(($font-size-base * 1.25)) // ~18px
+$rhythm-unit: "em";
+$rem-with-px-fallback: true;
+
+$agilesg-red: #EC1D24;
+$agilesg-grey: #606c71;
+$agilesg-dgrey: #343434;
+
+$font-size-base:          16px;
+$font-size-large:         ceil(($font-size-base * 1.25)); // ~18px
+$font-size-small:         ceil(($font-size-base * 0.85)); // ~12px
+
+$font-size-h1:            floor(($font-size-base * 2.6));// ~36px
+$font-size-h2:            floor(($font-size-base * 2.125)); // ~30px
+$font-size-h3:            ceil(($font-size-base * 1.7)); // ~24px
+$font-size-h4:            ceil(($font-size-base * 1.25)); // ~18px
 // $font-size-h5:            $font-size-base
 // $font-size-h6:            ceil(($font-size-base * 0.85)) // ~12px
 
@@ -284,6 +294,9 @@ $screen-xs: 480px;
 $screen-xs-min:              $screen-xs;
 //* Deprecated `$screen-phone` as of v3.0.1
 $screen-phone:               $screen-xs-min;
+
+// Smaller tablets
+$screen-xsm: 600px;
 
 // Small screen / tablet
 //* Deprecated `$screen-sm` as of v3.0.1

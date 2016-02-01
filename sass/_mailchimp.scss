@@ -1,19 +1,7 @@
-.notify {
-  text-align: center;
-  padding: 2em 0 1em;
-  border-top: 1px solid #ddd;
-  background: #eee;
-
-  h3 {
-    margin: 0 0 1em 0;
-    font-size: 1em;
-  }
-}
 #mc_embed_signup {
   clear: left;
-}
-@media screen and (min-width: 60em) {
-  #mc_embed_signup {
+
+  @include breakpoint(screen-md) {
     margin: 0 auto;
   }
 }
@@ -21,7 +9,6 @@
 #mc_embed_signup form {
   display: block;
   position: relative;
-  text-align: left;
 }
 
 #mc_embed_signup h2 {
@@ -35,6 +22,7 @@
   border-radius: 5px;
   -webkit-appearance: none;
 }
+
 #mc_embed_signup input[type=checkbox] {
   -webkit-appearance: checkbox;
 }
@@ -44,43 +32,61 @@
 #mc_embed_signup input:focus {
   border-color: #333;
 }
+
 #mc_embed_signup .button {
   clear: both;
-  background-color: #EC1D24;
+  background-color: $agilesg-red;
   border: 0 none;
   border-radius: 5px;
   color: #FFFFFF;
   cursor: pointer;
   display: inline-block;
-  font-size: 15px;
-  font-weight: bold;
-  height: 35px;
-  line-height: 32px;
-  margin: 0 5px 10px 0;
-  padding: 0 10%;
+  line-height: 28px;
+  padding: 8px 20px;
   text-align: center;
   text-decoration: none;
-  vertical-align: top;
   white-space: nowrap;
   width: 100%;
   transition: background-color 0.5s;
+  font-size: 1em;
 }
+
+#mc_embed_signup .mc-submit {
+  width: 100%;
+
+  @include breakpoint(screen-xsm) {
+    width: 28%;
+    display: inline-block;
+  }
+}
+
 #mc_embed_signup .button:hover {
   background-color: #9F1116;
 }
 #mc_embed_signup .small-meta {
   font-size: 11px;
 }
+
 #mc_embed_signup .nowrap {
   white-space: nowrap;
 }
+
 #mc_embed_signup .mc-field-group {
-  clear: left;
   position: relative;
-  width: 100%;
-  padding-bottom: 3%;
-  min-height: 50px;
+  margin-bottom: 0.5em;
+  
+  @include breakpoint(screen-xsm) {
+    margin-right: 0.5em;
+    margin-bottom: 0;
+    display: inline-block;
+    width: 30%;
+  }
+
+  @include breakpoint(screen-md) {
+    margin-right: 1em;
+  }
 }
+
 #mc_embed_signup .size1of2 {
   clear: none;
   float: left;
@@ -103,22 +109,6 @@
   text-indent: 2%;
 }
 
-#mc_embed_signup .mc-submit {
-  clear: both;
-}
-
-@media screen and (min-width: 30em) {
-  #mc_embed_signup .mc-field-group,
-  #mc_embed_signup .mc-submit {
-    display: inline-block;
-    width: 35%;
-  }
-  #mc_embed_signup .mc-submit {
-    width: 25%;
-    clear: none;
-    vertical-align: top;
-  }
-}
 #mc_embed_signup .mc-field-group select {
   display: inline-block;
   width: 99%;
@@ -214,12 +204,13 @@
   text-align: left;
   padding: .5em 0;
 }
+
 #mc-embedded-subscribe {
   clear: both;
   width: auto;
   display: block;
-  margin: 1em 0 1em 5%;
 }
+
 #mc_embed_signup #num-subscribers {
   font-size: 1.1em;
 }

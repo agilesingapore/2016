@@ -1,9 +1,11 @@
-.speakers {
-  padding: 2em 0;
+.featured-speakers {
+  padding: 3em 0 2em;
 
-  h3 {
+  h2 {
     text-align: center;
     margin: 0 0 1.2em 0;
+    color: #343434;
+    font-size: 34px;
   }
 }
 
@@ -19,33 +21,18 @@
   .speaker-photo {
     margin: 0 0 10px 0;
     img {
-      width: 23%;
+      width: 50%;
       height: inherit;
       border-radius: 50%;
-      border: 2px solid;
     }
   }
   .speaker-bio {
     font-size: 0.9em;
     
     .speaker-name {
-      font-weight: bold;
-      font-size: 1.1em;
+      font-weight: 500;
+      font-size: 1.25em;
+      color: $agilesg-dgrey;
     }
-  }
-}
-
-.speakers .empty {
-  text-align: center;
-  margin: 0 auto;
-  font-style: italic;
-  font-weight: bold;
-  color: $agilesg-red;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  p {
-  margin-top: 20%;
   }
 }
