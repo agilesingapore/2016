@@ -121,6 +121,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/speakers\/fred.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 73265,
+		"inputAbbreviatedPath": "\/images\/speakers\/fred.jpg",
+		"outputAbbreviatedPath": "\/images\/speakers\/fred.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/speakers\/gerard.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -128,6 +139,17 @@
 		"initialSize": 29470,
 		"inputAbbreviatedPath": "\/images\/speakers\/gerard.jpg",
 		"outputAbbreviatedPath": "\/images\/speakers\/gerard.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/speakers\/gojko.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 50016,
+		"inputAbbreviatedPath": "\/images\/speakers\/gojko.jpg",
+		"outputAbbreviatedPath": "\/images\/speakers\/gojko.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -143,13 +165,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/speakers\/mitchell.jpg": {
+	"\/images\/speakers\/jutta.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 31469,
-		"inputAbbreviatedPath": "\/images\/speakers\/mitchell.jpg",
-		"outputAbbreviatedPath": "\/images\/speakers\/mitchell.jpg",
+		"initialSize": 45459,
+		"inputAbbreviatedPath": "\/images\/speakers\/jutta.jpg",
+		"outputAbbreviatedPath": "\/images\/speakers\/jutta.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/speakers\/mary.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 70744,
+		"inputAbbreviatedPath": "\/images\/speakers\/mary.jpg",
+		"outputAbbreviatedPath": "\/images\/speakers\/mary.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -161,6 +194,17 @@
 		"initialSize": 21185,
 		"inputAbbreviatedPath": "\/images\/speakers\/pramod.jpg",
 		"outputAbbreviatedPath": "\/images\/speakers\/pramod.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/speakers\/woody.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19669,
+		"inputAbbreviatedPath": "\/images\/speakers\/woody.jpg",
+		"outputAbbreviatedPath": "\/images\/speakers\/woody.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
