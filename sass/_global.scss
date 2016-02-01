@@ -26,33 +26,31 @@ h2, h3 {
   color: $agilesg-dgrey;
 }
 
-@media screen and (min-width: 64em) {
-  .btn {
+.btn {
+  display: block;
+  padding: 0.75rem;
+  font-size: 1em;
+  margin: 0 auto 1em auto;
+
+  @include breakpoint(screen-xsm) {
+    font-size: 1em;
+    margin: 0 1em 0 0;
+    display: inline-block;
+  }
+
+  @include breakpoint(screen-md) {
     padding: 0.75rem 1rem;
-  }
-}
-@media screen and (min-width: 42em) and (max-width: 64em) {
-  .btn {
-    padding: 0.6rem 0.9rem;
-    font-size: 0.9rem;
-  }
-}
-@media screen and (max-width: 42em) {
-  .btn {
-    display: block;
-    width: 100%;
-    padding: 0.75rem;
-    font-size: 0.9rem;
-  }
-  .btn + .btn {
-    margin-top: 1rem;
-    margin-left: 0;
   }
 }
 
 .button {
   background: $agilesg-red;
   color: #fff;
+
+  &:hover {
+    color: #fff;
+    text-decoration: underline;
+  }
 }
 
 .button.reverse {
