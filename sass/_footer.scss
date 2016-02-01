@@ -1,19 +1,38 @@
 .site-footer {
-  margin: 0 0 3em 0;
-  padding: 2rem 0 0 0;
-  border-top: solid 1px #ddd;
+  @include rhythm-padding(1);
   text-align: center;
-}
+  background: $agilesg-dgrey;
+  color: #fff;
+  
+  a:hover {
+    color: $agilesg-red;
+    text-decoration: underline;
+  }
 
-.site-footer ul {
-  margin: 0 auto;
-  padding: 0;
-  list-style: none;
-}
-.site-footer li {
-  list-style: none;
-  margin: 0 1.5em 0.5em 0;
-  text-align: center;
-  display: inline-block;
-  padding: 0;
+  ul {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    list-style: none;
+    margin: 0 1.5em 0.5em 0;
+    text-align: center;
+    display: inline-block;
+    padding: 0;
+  }
+  .btn {
+    color: #fff;
+    &:hover {
+      color: #fff;
+    }
+  }
+  .btn.facebook {
+    background: #3B5998;
+  }
+
+  .btn.twitter {
+    background: #00ACED;
+  }
 }

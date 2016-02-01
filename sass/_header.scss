@@ -1,16 +1,64 @@
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url("../images/new_mast.jpg") no-repeat center top;
+  background-size: cover;
+  margin-bottom: 0;
+  color: #fff;
+  min-height: 500px;
+  padding: 2em 0;
+
+  @include breakpoint(screen-xsm) {
+    min-height: 300px;
+  }
+  
+  h2, h3, h4 {
+    color: #fff;
+  }
+  h1 {
+    width: 90%;
+    min-height: 78px;
+    margin: 0 auto;
+    text-indent: -9999px;
+    background: url("../images/agile-2016-logo-header.svg") no-repeat center center;
+    background-size: 90%;
+
+    @include breakpoint(screen-sm) {
+      @include rhythm(0.5);
+    }
+  }
+
+  h2 {
+    font-size: 1.5em;
+    line-height: 1.375em;
+
+    @include rhythm(0.5);
+
+    @include breakpoint(screen-sm) {
+      font-size: 2.2em;
+    }
+  }
+
+  h3 {
+    margin: 0 0 1em;
+    font-size: 1em;
+    line-height: 1.375em;
+
+    @include breakpoint(screen-sm) {
+      font-size: 1.25em;
+    }
+  }
+}
+
 .branding {
   text-align: center;
   padding: 1em;
 }
 
-.branding h1 {
-  width: 90%;
-  min-height: 78px;
-  margin: 0 auto;
-  text-indent: -9999px;
-  background: url("../images/agilesg2016_logo.png") no-repeat center center;
-  background-size: 90%;
+.notify {
+  @include breakpoint(screen-sm) {
+    @include rhythm(1);
+  }
 }
+
 
 @media screen and (min-width: 30em) {
   .branding {

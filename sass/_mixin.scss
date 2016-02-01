@@ -8,6 +8,9 @@
   @else if $class == screen-sm {
     @media (min-width: $screen-sm-min) { @content; }
   }
+  @else if $class == screen-xsm {
+    @media (min-width: $screen-xsm) { @content; }
+  }
   @else if $class == screen-md {
     @media (min-width: $screen-md-min) { @content; }
   }

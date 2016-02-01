@@ -103,7 +103,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 400698,
+		"initialSize": 201817,
 		"inputAbbreviatedPath": "\/images\/new_mast.jpg",
 		"outputAbbreviatedPath": "\/images\/new_mast.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -364,22 +364,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/sass\/_branding.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/sass\/_branding.scss",
-		"outputAbbreviatedPath": "\/stylesheets\/_branding.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
 	"\/sass\/_content.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -428,15 +412,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/sass\/_jan2016.scss": {
+	"\/sass\/_header.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/sass\/_jan2016.scss",
-		"outputAbbreviatedPath": "\/stylesheets\/_jan2016.css",
+		"inputAbbreviatedPath": "\/sass\/_header.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_header.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -492,15 +476,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/sass\/_variables.scss": {
+	"\/sass\/_sponsors.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/sass\/_variables.scss",
-		"outputAbbreviatedPath": "\/stylesheets\/_variables.css",
+		"inputAbbreviatedPath": "\/sass\/_sponsors.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_sponsors.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,

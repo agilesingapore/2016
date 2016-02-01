@@ -1,0 +1,42 @@
+.sponsors {
+  background: #f2f2f2;
+  @include rhythm-padding(1);
+
+  .col-sm-6 {
+    text-align: center;
+  }
+  h3 {
+    font-size: 1.25em;
+    font-weight: 500;
+  }
+}
+
+.about {
+  h2 {
+    margin-top: 0;
+  }
+}
+.sponsor-cta {
+  border-top: 1px solid #ccc;
+
+  @include breakpoint(screen-sm) {
+    border: none;
+  }
+
+  h2 {
+    @include breakpoint(screen-sm) {
+      margin-top: 0;
+    }
+  }
+  .btn {
+    @include breakpoint(screen-sm) {
+      margin: 0 1em 1em 0;
+      padding: 0.5em 1em;
+      width: 60%;
+    }
+
+    @include breakpoint(screen-md) {
+      width: 45%;
+    }
+  }
+}
