@@ -5842,7 +5842,6 @@ h2, h3 {
   @media (min-width: 600px) {
     .btn {
       font-size: 1em;
-      margin: 0 1em 0 0;
       display: inline-block; } }
   @media (min-width: 992px) {
     .btn {
@@ -5865,17 +5864,17 @@ header {
   background-size: cover;
   margin-bottom: 0;
   color: #fff;
-  min-height: 500px;
-  padding: 2em 0; }
+  padding-top: 3em;
+  padding-bottom: 3em; }
   @media (min-width: 600px) {
     header {
       min-height: 300px; } }
   header h2, header h3, header h4 {
     color: #fff; }
   header h1 {
-    width: 90%;
+    width: 366px;
     min-height: 78px;
-    margin: 0 auto;
+    margin: 0 auto 20px;
     text-indent: -9999px;
     background: url("../images/agile-2016-logo-header.svg") no-repeat center center;
     background-size: 90%; }
@@ -5884,7 +5883,10 @@ header {
         margin-top: 0.75em;
         padding-top: 0em;
         padding-bottom: 0em;
-        margin-bottom: 0.75em; } }
+        margin-bottom: 0.75em;
+        background-size: 100%; } }
+    header h1 a {
+      display: block; }
   header h2 {
     font-size: 1.5em;
     line-height: 1.375em;
@@ -5904,8 +5906,7 @@ header {
         font-size: 1.25em; } }
 
 .branding {
-  text-align: center;
-  padding: 1em; }
+  text-align: center; }
 
 @media (min-width: 768px) {
   .notify {
@@ -5914,18 +5915,6 @@ header {
     padding-bottom: 0em;
     margin-bottom: 1.5em; } }
 
-@media screen and (min-width: 30em) {
-  .branding {
-    padding: 1.5em; }
-
-  .branding h1 {
-    width: 366px; } }
-.branding h1 a {
-  display: block; }
-
-@media screen and (min-width: 30em) {
-  .branding h1 {
-    background-size: 100%; } }
 .page-masthead {
   color: #fff;
   text-align: center;
@@ -6159,7 +6148,8 @@ header {
   font-weight: bold; }
 
 .featured-speakers {
-  padding: 3em 0 2em; }
+  padding-top: 3em;
+  padding-bottom: 3em; }
   .featured-speakers h2 {
     text-align: center;
     margin: 0 0 1.2em 0;
@@ -6193,6 +6183,10 @@ header {
   background: #f2f2f2;
   padding-top: 1.5em;
   padding-bottom: 1.5em; }
+  @media (min-width: 600px) {
+    .sponsors {
+      padding-top: 3em;
+      padding-bottom: 3em; } }
   .sponsors .col-sm-6 {
     text-align: center; }
   .sponsors h3 {
@@ -6203,28 +6197,38 @@ header {
   margin-top: 0; }
 
 .sponsor-cta {
-  border-top: 1px solid #ccc; }
+  border-top: 1px solid #ccc;
+  padding-top: 1.5em;
+  margin-top: 1.5em; }
   @media (min-width: 768px) {
     .sponsor-cta {
-      border: none; } }
-  @media (min-width: 768px) {
-    .sponsor-cta h2 {
-      margin-top: 0; } }
-  @media (min-width: 768px) {
+      border: none;
+      margin-top: 0;
+      padding-top: 0; } }
+  .sponsor-cta h2 {
+    margin-top: 0;
+    font-size: 2em; }
+  @media (max-width: 767px) {
+    .sponsor-cta h3 {
+      font-size: 1em; } }
+  @media (min-width: 600px) {
     .sponsor-cta .btn {
       margin: 0 1em 1em 0;
-      padding: 0.5em 1em;
-      width: 60%; } }
+      padding: 0.5em 1em; } }
   @media (min-width: 992px) {
     .sponsor-cta .btn {
       width: 45%; } }
 
 .site-footer {
-  padding-top: 1.5em;
-  padding-bottom: 1.5em;
+  padding-top: 3em;
+  padding-bottom: 3em;
   text-align: center;
   background: #343434;
   color: #fff; }
+  @media (min-width: 768px) {
+    .site-footer {
+      padding-top: 3em;
+      padding-bottom: 3em; } }
   .site-footer a:hover {
     color: #EC1D24;
     text-decoration: underline; }

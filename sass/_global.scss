@@ -34,7 +34,6 @@ h2, h3 {
 
   @include breakpoint(screen-xsm) {
     font-size: 1em;
-    margin: 0 1em 0 0;
     display: inline-block;
   }
 

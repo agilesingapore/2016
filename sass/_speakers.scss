@@ -1,5 +1,5 @@
 .featured-speakers {
-  padding: 3em 0 2em;
+  @include rhythm-padding(2);
 
   h2 {
     text-align: center;

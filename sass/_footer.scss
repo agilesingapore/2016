@@ -1,5 +1,10 @@
 .site-footer {
-  @include rhythm-padding(1);
+  @include rhythm-padding(2);
+  
+  @include breakpoint(screen-sm) {    
+    @include rhythm-padding(2);
+  }
+
   text-align: center;
   background: $agilesg-dgrey;
   color: #fff;

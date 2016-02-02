@@ -3,8 +3,7 @@ header {
   background-size: cover;
   margin-bottom: 0;
   color: #fff;
-  min-height: 500px;
-  padding: 2em 0;
+  @include rhythm-padding(2);
 
   @include breakpoint(screen-xsm) {
     min-height: 300px;
@@ -14,15 +13,20 @@ header {
     color: #fff;
   }
   h1 {
-    width: 90%;
+    width: 366px;
     min-height: 78px;
-    margin: 0 auto;
+    margin: 0 auto 20px;
     text-indent: -9999px;
     background: url("../images/agile-2016-logo-header.svg") no-repeat center center;
     background-size: 90%;
 
     @include breakpoint(screen-sm) {
       @include rhythm(0.5);
+      background-size: 100%;
+    }
+
+    a {
+      display: block;
     }
   }
 
@@ -50,7 +54,6 @@ header {
 
 .branding {
   text-align: center;
-  padding: 1em;
 }
 
 .notify {
@@ -59,23 +62,8 @@ header {
   }
 }
 
-
-@media screen and (min-width: 30em) {
-  .branding {
-    padding: 1.5em;
-  }
-  .branding h1 {
-    width: 366px;
-  }
-}
-
-.branding h1 a {
-  display: block;
-}
-
 @media screen and (min-width: 30em) {
   .branding h1 {
-    background-size: 100%;
   }
 }
 
