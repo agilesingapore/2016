@@ -6012,7 +6012,8 @@ header {
       margin-right: 0.5em;
       margin-bottom: 0;
       display: inline-block;
-      width: 30%; } }
+      width: 30%;
+      vertical-align: top; } }
   @media (min-width: 992px) {
     #mc_embed_signup .mc-field-group {
       margin-right: 1em; } }

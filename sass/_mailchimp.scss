@@ -80,6 +80,7 @@
     margin-bottom: 0;
     display: inline-block;
     width: 30%;
+    vertical-align: top;
   }
 
   @include breakpoint(screen-md) {
