@@ -5960,7 +5960,8 @@ header {
 #mc_embed_signup input {
   border: 1px solid #999;
   border-radius: 5px;
-  -webkit-appearance: none; }
+  -webkit-appearance: none;
+  color: #222; }
 
 #mc_embed_signup input[type=checkbox] {
   -webkit-appearance: checkbox; }
@@ -6037,7 +6038,8 @@ header {
   display: block;
   width: 100%;
   padding: 8px 0;
-  text-indent: 2%; }
+  text-indent: 2%;
+  color: #222; }
 
 #mc_embed_signup .mc-field-group select {
   display: inline-block;
