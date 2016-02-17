@@ -9436,54 +9436,55 @@ header h3 {
   background: #f2f2f2;
   padding-top: 3em;
   padding-bottom: 3em;
+  padding-bottom: 0;
 }
-/* line 27, ../sass/_sponsors.scss */
+/* line 28, ../sass/_sponsors.scss */
 .sponsors h2 {
   text-align: center;
   margin: 0 0 1.2em 0;
   color: #343434;
   font-size: 34px;
 }
-/* line 34, ../sass/_sponsors.scss */
+/* line 35, ../sass/_sponsors.scss */
 .sponsors .thumbnail {
   background-color: transparent;
   border: 0;
 }
 
-/* line 41, ../sass/_sponsors.scss */
+/* line 42, ../sass/_sponsors.scss */
 .sponsor-cta {
   border-top: 1px solid #ccc;
   padding-top: 1.5em;
   margin-top: 1.5em;
 }
 @media (min-width: 768px) {
-  /* line 41, ../sass/_sponsors.scss */
+  /* line 42, ../sass/_sponsors.scss */
   .sponsor-cta {
     border: none;
     margin-top: 0;
     padding-top: 0;
   }
 }
-/* line 52, ../sass/_sponsors.scss */
+/* line 53, ../sass/_sponsors.scss */
 .sponsor-cta h2 {
   margin-top: 0;
   font-size: 2em;
 }
 @media (max-width: 767px) {
-  /* line 56, ../sass/_sponsors.scss */
+  /* line 57, ../sass/_sponsors.scss */
   .sponsor-cta h3 {
     font-size: 1em;
   }
 }
 @media (min-width: 600px) {
-  /* line 61, ../sass/_sponsors.scss */
+  /* line 62, ../sass/_sponsors.scss */
   .sponsor-cta .btn {
     margin: 0 1em 1em 0;
     padding: 0.5em 1em;
   }
 }
 @media (min-width: 992px) {
-  /* line 61, ../sass/_sponsors.scss */
+  /* line 62, ../sass/_sponsors.scss */
   .sponsor-cta .btn {
     width: 45%;
   }
