@@ -1,3 +1,7 @@
+.navbar {
+  margin-bottom: 0;
+}
+
 header {
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url("../images/new_mast.jpg") no-repeat center center;
   background-size: cover;
@@ -8,7 +12,7 @@ header {
   @include breakpoint(screen-xsm) {
     min-height: 300px;
   }
-  
+
   h2, h3, h4 {
     color: #fff;
   }

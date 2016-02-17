@@ -1,8 +1,8 @@
-.sponsors {
+.sponsors-snippet {
   background: #f2f2f2;
   @include rhythm-padding(1);
 
-  @include breakpoint(screen-xsm) {    
+  @include breakpoint(screen-xsm) {
     @include rhythm-padding(2);
   }
   .col-sm-6 {
@@ -12,13 +12,32 @@
     font-size: 1.25em;
     font-weight: 500;
   }
-}
 
-.about {
-  h2 {
-    margin-top: 0;
+  .about {
+    h2 {
+      margin-top: 0;
+    }
   }
 }
+
+.sponsors {
+  background: #f2f2f2;
+  @include rhythm-padding(2);
+
+  h2 {
+    text-align: center;
+    margin: 0 0 1.2em 0;
+    color: #343434;
+    font-size: 34px;
+  }
+
+  .thumbnail {
+    background-color: transparent;
+    border: 0;
+  }
+}
+
+
 .sponsor-cta {
   border-top: 1px solid #ccc;
   @include leader(1, $base-font-size, padding);
