@@ -48,116 +48,18 @@ layout: default
     <div class="col-sm-12">
       <h2>Featured Speakers - more to come...</h2>
         <ul>
+          {% for speaker in site.data.featured_speakers %}
           <li class="col-xsm-6 col-sm-3">
             <p class="speaker-photo">
-            <img src="images/speakers/arlo.jpg">
+              <img src="images/speakers/{{speaker.photo_name}}.jpg" alt="{{speaker.name}}">
             </p>
             <p class="speaker-bio">
-              <a href="https://www.linkedin.com/in/arlobelshee" target="_blank" class="speaker-name">Arlo Belshee</a><br />
-            Industrial Logic<br />
-            Creator of Promiscuous Pairing and Naked Planning
+              <a href="{{speaker.url}}" target="_blank" class="speaker-name">{{speaker.name}}</a><br />
+              {{speaker.company}}<br />
+              {{speaker.bio}}
             </p>
           </li>
-          <li class="col-xsm-6 col-sm-3">
-            <p class="speaker-photo">
-            <img src="images/speakers/fred.jpg">
-            </p>
-            <p class="speaker-bio">
-              <a href="https://www.linkedin.com/in/fred-george-5965b5" target="_blank" class="speaker-name">Fred George</a><br />
-            Fred George Consulting<br />
-            Early Advocate of MicroServices and Managerless Teams
-            </p>
-          </li>
-          <li class="col-xsm-6 col-sm-3">
-            <p class="speaker-photo">
-            <img src="images/speakers/gerard.jpg">
-            </p>
-            <p class="speaker-bio">
-              <a href="https://www.linkedin.com/in/gerardmeszaros" target="_blank" class="speaker-name">Gerard Meszaros</a><br />
-              FeedXL<br />
-              Author of xUnit Test Patterns</p>
-          </li>
-          <li class="col-xsm-6 col-sm-3">
-            <p class="speaker-photo">
-            <img src="images/speakers/gojko.jpg">
-            </p>
-            <p class="speaker-bio">
-              <a href="https://gojko.net" target="_blank" class="speaker-name">Gojko Adzic</a><br />
-              Neuri Consulting LLP<br />
-              Author of Specification by Example, Impact Mapping and more</p>
-          </li>
-          <li class="col-xsm-6 col-sm-3">
-            <p class="speaker-photo">
-            <img src="images/speakers/jeff.jpg" alt="Jeff Gothelf">
-            </p>
-            <p class="speaker-bio">
-              <a href="http://www.jeffgothelf.com" target="_blank" class="speaker-name">Jeff Gothelf</a><br />
-              Gothelf Corp<br />
-              Author of Lean UX & Sense And Respond</p>
-          </li>
-          <li class="col-xsm-6 col-sm-3">
-            <p class="speaker-photo">
-            <img src="images/speakers/joshua.jpg" alt="Joshua Kerievsky">
-            </p>
-            <p class="speaker-bio">
-              <a href="https://www.linkedin.com/in/joshuakerievsky" target="_blank" class="speaker-name">Joshua Kerievsky</a><br />
-              Industrial Logic<br />
-              Author of Refactoring to Patterns and creator of Modern Agile</p>
-          </li>
-          <li class="col-xsm-6 col-sm-3">
-            <p class="speaker-photo">
-            <img src="images/speakers/justin.jpg" alt="Justin Searls">
-            </p>
-            <p class="speaker-bio">
-              <a href="https://www.linkedin.com/in/searls" target="_blank" class="speaker-name">Justin Searls</a><br />
-              Test Double<br />
-              Author of jasmine-rails and jasmine-maven-plugin</p>
-          </li>
-          <li class="col-xsm-6 col-sm-3">
-            <p class="speaker-photo">
-              <img src="images/speakers/jutta.jpg">
-            </p>
-            <p class="speaker-bio">
-              <a href="http://www.jeckstein.com" target="_blank" class="speaker-name">Jutta Eckstein</a><br />
-              Jutta Eckstein<br />
-              Author of Agile Software Development with Distributed Teams et.al.</p>
-          </li>
-          <li class="col-xsm-6 col-sm-3">
-            <p class="speaker-photo">
-              <img src="images/speakers/mary.jpg">
-            </p>
-            <p class="speaker-bio">
-              <a href="http://www.poppendieck.com" target="_blank" class="speaker-name">Mary and Tom Poppendieck</a><br />
-              Poppendieck.LLC<br />
-              Author of Lean Mindset and the Lean Software Development series</p>
-          </li>
-          <li class="col-xsm-6 col-sm-3">
-            <p class="speaker-photo">
-              <img src="images/speakers/michael.jpg">
-            </p>
-            <p class="speaker-bio">
-              <a href="https://michaelfeathers.silvrback.com" target="_blank" class="speaker-name">Michael Feathers</a><br />
-              R7K Research & Conveyance<br />
-              Author of Working Effectively with Legacy Code</p>
-          </li>
-          <li class="col-xsm-6 col-sm-3">
-            <p class="speaker-photo">
-              <img src="images/speakers/nicole.jpg">
-            </p>
-            <p class="speaker-bio">
-              <a href="http://www.nicoleforsgren.com" target="_blank" class="speaker-name">Nicole Forsgren</a><br />
-              Chef<br />
-              Lead investigator State of DevOps Reports, DevOps researcher and expert</p>
-          </li>
-          <li class="col-xsm-6 col-sm-3">
-            <p class="speaker-photo">
-              <img src="images/speakers/pramod.jpg">
-            </p>
-            <p class="speaker-bio">
-              <a href="http://sadalage.com" target="_blank" class="speaker-name">Pramod Sadalage</a><br />
-              ThoughtWorks<br />
-              Author of Refactoring Databases</p>
-          </li>
+          {% endfor %}
 <!--
           <li class="col-xsm-6 col-sm-3">
             <p class="speaker-photo">
@@ -195,7 +97,6 @@ layout: default
   <a name="proposals"></a>
   <div class="container">
     <div class="col-sm-12">
-
       <h2><i class="fa fa-file-text-o fa-1x"></i>  Call for Proposals</h2>
       <p class="text-center">To be announced in March 2016</p>
     </div>
