@@ -1,3 +1,9 @@
+- name: "Aaron Sanders"
+  bio: "Helping teams build valuable, usable & feasible products"
+  company: "Aaron Sanders"
+  photo_name: aaron
+  url: "http://aaron.sanders.name"
+
 - name: "Arlo Belshee"
   bio: "Creator of Promiscuous Pairing and Naked Planning"
   company: "Industrial Logic"
@@ -11,7 +17,7 @@
   url: "https://www.linkedin.com/in/fred-george-5965b5"
 
 - name: "Gerard Meszaros"
-  bio: "Author of xUnit Test Patterns"
+  bio: "Author of xUnit Test Patterns: Refactoring Test Code"
   company: "FeedXL"
   photo_name: gerard
   url: "https://www.linkedin.com/in/gerardmeszaros"

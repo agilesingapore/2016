@@ -8872,7 +8872,27 @@ h2, h3 {
   margin-bottom: 0;
 }
 
-/* line 5, ../sass/_header.scss */
+/* line 6, ../sass/_header.scss */
+.navbar-default .navbar-nav .btn-default {
+  background-color: #EC1D24;
+  border-width: 0px;
+  border-radius: 5px;
+  color: #FFFFFF;
+  cursor: pointer;
+  margin-bottom: 0;
+  font-size: 0.95em;
+  padding-left: 1.1em;
+  padding-right: 1.1em;
+  margin-left: 1em;
+  line-height: 1.3em;
+  transition: background-color 0.5s;
+}
+/* line 20, ../sass/_header.scss */
+.navbar-default .navbar-nav .btn-default:hover {
+  background-color: #9F1116;
+}
+
+/* line 26, ../sass/_header.scss */
 header {
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url("../images/new_mast.jpg") no-repeat center center;
   background-size: cover;
@@ -8882,16 +8902,16 @@ header {
   padding-bottom: 3em;
 }
 @media (min-width: 600px) {
-  /* line 5, ../sass/_header.scss */
+  /* line 26, ../sass/_header.scss */
   header {
     min-height: 300px;
   }
 }
-/* line 16, ../sass/_header.scss */
+/* line 37, ../sass/_header.scss */
 header h2, header h3, header h4 {
   color: #fff;
 }
-/* line 19, ../sass/_header.scss */
+/* line 40, ../sass/_header.scss */
 header h1 {
   width: 100%;
   max-width: 366px;
@@ -8902,7 +8922,7 @@ header h1 {
   background-size: 90%;
 }
 @media (min-width: 768px) {
-  /* line 19, ../sass/_header.scss */
+  /* line 40, ../sass/_header.scss */
   header h1 {
     margin-top: 0.75em;
     padding-top: 0em;
@@ -8911,11 +8931,11 @@ header h1 {
     background-size: 100%;
   }
 }
-/* line 33, ../sass/_header.scss */
+/* line 54, ../sass/_header.scss */
 header h1 a {
   display: block;
 }
-/* line 38, ../sass/_header.scss */
+/* line 59, ../sass/_header.scss */
 header h2 {
   font-size: 1.5em;
   line-height: 1.375em;
@@ -8925,31 +8945,31 @@ header h2 {
   margin-bottom: 0.75em;
 }
 @media (min-width: 768px) {
-  /* line 38, ../sass/_header.scss */
+  /* line 59, ../sass/_header.scss */
   header h2 {
     font-size: 2.2em;
   }
 }
-/* line 49, ../sass/_header.scss */
+/* line 70, ../sass/_header.scss */
 header h3 {
   margin: 0 0 1em;
   font-size: 1em;
   line-height: 1.375em;
 }
 @media (min-width: 768px) {
-  /* line 49, ../sass/_header.scss */
+  /* line 70, ../sass/_header.scss */
   header h3 {
     font-size: 1.25em;
   }
 }
 
-/* line 60, ../sass/_header.scss */
+/* line 81, ../sass/_header.scss */
 .branding {
   text-align: center;
 }
 
 @media (min-width: 768px) {
-  /* line 64, ../sass/_header.scss */
+  /* line 85, ../sass/_header.scss */
   .notify {
     margin-top: 1.5em;
     padding-top: 0em;
@@ -8958,7 +8978,7 @@ header h3 {
   }
 }
 
-/* line 75, ../sass/_header.scss */
+/* line 96, ../sass/_header.scss */
 .page-masthead {
   color: #fff;
   text-align: center;
@@ -8967,27 +8987,27 @@ header h3 {
 }
 
 @media screen and (min-width: 40em) {
-  /* line 83, ../sass/_header.scss */
+  /* line 104, ../sass/_header.scss */
   .page-masthead {
     background: url("../images/agilesg2016_masthead_1280.jpg") no-repeat center top;
     min-height: 400px;
   }
 }
 @media screen and (min-width: 80em) {
-  /* line 90, ../sass/_header.scss */
+  /* line 111, ../sass/_header.scss */
   .page-masthead {
     background: url("../images/agilesg2016_masthead_1920.jpg") no-repeat center top;
     min-height: 600px;
   }
 }
-/* line 96, ../sass/_header.scss */
+/* line 117, ../sass/_header.scss */
 .site-description {
   background: #EC1D24;
   color: #fff;
   padding: 1em;
   text-align: center;
 }
-/* line 102, ../sass/_header.scss */
+/* line 123, ../sass/_header.scss */
 .site-description h2 {
   font-weight: normal;
   font-size: 1.2em;
@@ -9488,6 +9508,20 @@ header h3 {
   .sponsor-cta .btn {
     width: 45%;
   }
+}
+
+/* line 1, ../sass/_pricing.scss */
+.pricing {
+  background: #f2f2f2;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+/* line 5, ../sass/_pricing.scss */
+.pricing h2 {
+  text-align: center;
+  margin: 0 0 1.2em 0;
+  color: #343434;
+  font-size: 34px;
 }
 
 /* line 1, ../sass/_footer.scss */

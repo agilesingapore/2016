@@ -2,6 +2,27 @@
   margin-bottom: 0;
 }
 
+.navbar-default .navbar-nav {
+  .btn-default {
+    background-color: $agilesg-red;
+    border-width:0px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-bottom: 0;
+    font-size: 0.95em;
+    padding-left: 1.1em;
+    padding-right: 1.1em;
+    margin-left: 1em;
+    line-height: 1.3em;
+    transition: background-color 0.5s;
+  }
+  .btn-default:hover {
+    background-color: #9F1116;
+  }
+}
+
+
 header {
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url("../images/new_mast.jpg") no-repeat center center;
   background-size: cover;
