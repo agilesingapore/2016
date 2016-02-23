@@ -9349,12 +9349,12 @@ header h3 {
 }
 /* line 26, ../sass/_speakers.scss */
 .featured-speakers .speaker-bio {
-  font-size: 0.8em;
+  font-size: 0.85em;
 }
 /* line 29, ../sass/_speakers.scss */
 .featured-speakers .speaker-bio .speaker-name {
   font-weight: 500;
-  font-size: 1.25em;
+  font-size: 1.2em;
   color: #343434;
 }
 
