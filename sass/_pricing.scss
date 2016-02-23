@@ -8,4 +8,13 @@
     color: #343434;
     font-size: 34px;
   }
+
+  table tr:first-child th:nth-child(2) {
+    min-width:120px;
+    text-align: center;
+  }
+  table tr td:nth-child(2) {
+    text-align: center;
+  }
+
 }
