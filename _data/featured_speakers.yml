@@ -82,8 +82,8 @@
   photo_name: pramod
   url: "http://sadalage.com"
 
-#- name: "Woody Zuill"
-#  company: "Woody Zuill"
-#  bio: "Creator of Mob Programming"
-#  photo_name: woody
-#  url: "http://mobprogramming.org"
+- name: "Woody Zuill"
+  company: "Woody Zuill"
+  bio: "Creator of Mob Programming"
+  photo_name: woody
+  url: "http://mobprogramming.org"
