@@ -10,6 +10,12 @@
   photo_name: arlo
   url: "https://www.linkedin.com/in/arlobelshee"
 
+- name: "Amy Jo Kim"
+  bio: "Social game designer, community architect and startup coach"
+  company: "Shufflebrain"
+  photo_name: amy
+  url: "http://amyjokim.com"
+
 - name: "Danielle Jabin"
   bio: "Spotify engineer turned Agile Coach"
   company: "Spotify"
