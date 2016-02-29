@@ -6,6 +6,13 @@
   padding: 10px 15px;
 }
 
+body.home .navbar-brand {
+  display: none;
+  @include breakpoint(screen-md) {
+    display: inherit;
+  }
+}
+
 .navbar-default .navbar-nav {
   .btn-default {
     background-color: $agilesg-red;

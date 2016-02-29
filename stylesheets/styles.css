@@ -5869,6 +5869,12 @@ h2, h3 {
 .navbar-brand {
   padding: 10px 15px; }
 
+body.home .navbar-brand {
+  display: none; }
+  @media (min-width: 992px) {
+    body.home .navbar-brand {
+      display: inherit; } }
+
 .navbar-default .navbar-nav .btn-default {
   background-color: #EC1D24;
   border-width: 0px;
