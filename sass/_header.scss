@@ -2,6 +2,10 @@
   margin-bottom: 0;
 }
 
+.navbar-brand {
+  padding: 10px 15px;
+}
+
 .navbar-default .navbar-nav {
   .btn-default {
     background-color: $agilesg-red;
@@ -22,6 +26,9 @@
   }
 }
 
+.navbar button {
+  display: none;
+}
 
 header {
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url("../images/new_mast.jpg") no-repeat center center;
