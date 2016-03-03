@@ -16,6 +16,12 @@
   photo_name: amy
   url: "http://amyjokim.com"
 
+- name: "Bas Vodde"
+  bio: "Creator of Large Scale Scrum (LeSS)"
+  company: "Odd-e"
+  photo_name: bas
+  url: "https://www.linkedin.com/in/basvodde"
+
 - name: "Danielle Jabin"
   bio: "Spotify engineer turned Agile Coach"
   company: "Spotify"
