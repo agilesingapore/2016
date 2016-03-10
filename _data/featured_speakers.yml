@@ -70,6 +70,12 @@
   photo_name: jutta
   url: "http://www.jeckstein.com"
 
+- name: "Martin Fowler"
+  company: "ThoughtWorks"
+  bio: "Author, speaker and consultant"
+  photo_name: martin
+  url: "http://martinfowler.com"
+
 - name: "Mary and Tom Poppendieck"
   company: "Poppendieck.LLC"
   bio: "Author of Lean Mindset and the Lean Software Development series"
