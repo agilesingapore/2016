@@ -9621,3 +9621,116 @@ header h3 {
 .site-footer .btn.twitter {
   background: #00ACED;
 }
+
+/* line 10, ../sass/_call-for-proposals.scss */
+.review-process {
+  background: #f2f2f2;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+/* line 2, ../sass/_call-for-proposals.scss */
+.review-process h2 {
+  text-align: center;
+  margin: 0 0 1.2em 0;
+  color: #343434;
+  font-size: 34px;
+}
+
+/* line 16, ../sass/_call-for-proposals.scss */
+.selection {
+  background: #ffffff;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+/* line 2, ../sass/_call-for-proposals.scss */
+.selection h2 {
+  text-align: center;
+  margin: 0 0 1.2em 0;
+  color: #343434;
+  font-size: 34px;
+}
+
+/* line 22, ../sass/_call-for-proposals.scss */
+.good-propoosal {
+  background: #f2f2f2;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+/* line 2, ../sass/_call-for-proposals.scss */
+.good-propoosal h2 {
+  text-align: center;
+  margin: 0 0 1.2em 0;
+  color: #343434;
+  font-size: 34px;
+}
+
+/* line 28, ../sass/_call-for-proposals.scss */
+.best-selection {
+  background: #ffffff;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+/* line 2, ../sass/_call-for-proposals.scss */
+.best-selection h2 {
+  text-align: center;
+  margin: 0 0 1.2em 0;
+  color: #343434;
+  font-size: 34px;
+}
+
+/* line 34, ../sass/_call-for-proposals.scss */
+.compensation {
+  background: #f2f2f2;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+/* line 2, ../sass/_call-for-proposals.scss */
+.compensation h2 {
+  text-align: center;
+  margin: 0 0 1.2em 0;
+  color: #343434;
+  font-size: 34px;
+}
+
+/* line 40, ../sass/_call-for-proposals.scss */
+.program-team {
+  background: #ffffff;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+/* line 2, ../sass/_call-for-proposals.scss */
+.program-team h2 {
+  text-align: center;
+  margin: 0 0 1.2em 0;
+  color: #343434;
+  font-size: 34px;
+}
+/* line 45, ../sass/_call-for-proposals.scss */
+.program-team ul, .program-team li {
+  list-style: none;
+  padding: 0;
+}
+/* line 50, ../sass/_call-for-proposals.scss */
+.program-team li {
+  text-align: center;
+}
+/* line 53, ../sass/_call-for-proposals.scss */
+.program-team .organiser-photo {
+  margin: 0 0 10px 0;
+}
+/* line 55, ../sass/_call-for-proposals.scss */
+.program-team .organiser-photo img {
+  width: 50%;
+  height: inherit;
+  border-radius: 50%;
+}
+/* line 61, ../sass/_call-for-proposals.scss */
+.program-team .organiser-bio {
+  font-size: 0.9em;
+}
+/* line 64, ../sass/_call-for-proposals.scss */
+.program-team .organiser-bio .speaker-name {
+  font-weight: 500;
+  font-size: 1.25em;
+  color: #343434;
+}
