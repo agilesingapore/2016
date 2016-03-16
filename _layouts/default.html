@@ -47,7 +47,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-TDDNZV');</script>
 <!-- End Google Tag Manager -->
 
-  <nav class="navbar navbar-default">
+  <nav class="navbar navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -58,15 +58,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           </button>
           <a class="navbar-brand" href="/"><img src="../images/agile-2016-logo-min.svg" width="90"></a>
         </div>
-
-        <ul class="nav nav-pills navbar-nav navbar-right">
-          <li><a href="/">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="sponsors.html">Sponsors</a></li>
-          <li><a href="index.html#proposals">Call for Proposals</a></li>
-          <li><a href="tickets.html">Register</a></li>
-        </ul>
-     </div>
+        <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="/">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="sponsors.html">Sponsors</a></li>
+            <li><a href="index.html#proposals">Call for Proposals</a></li>
+            <li><a class="button btn-default" href="tickets.html">Register</a></li>
+          </ul>
+         </div>
+       </div>
   </nav>
 
   {{ content }}

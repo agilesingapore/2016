@@ -1,19 +1,19 @@
 .navbar {
   margin-bottom: 0;
+  background: #fff;
+  border-bottom: 2px solid $agilesg-red;
 }
 
 .navbar-brand {
   padding: 10px 15px;
 }
 
-body.home .navbar-brand {
+.navbar-nav {
   display: none;
-  @include breakpoint(screen-md) {
-    display: inherit;
+  
+  @include breakpoint(screen-sm) {
+    display: block;
   }
-}
-
-.navbar-default .navbar-nav {
   .btn-default {
     background-color: $agilesg-red;
     border-width:0px;
@@ -24,25 +24,61 @@ body.home .navbar-brand {
     font-size: 0.95em;
     padding-left: 1.1em;
     padding-right: 1.1em;
-    margin-left: 1em;
-    line-height: 1.3em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
     transition: background-color 0.5s;
+    margin: 0.4em 0 0.4em 1em;
   }
   .btn-default:hover {
     background-color: #9F1116;
+    color: #fff;
+    text-decoration: underline;
+  }
+  li a {
+    color: #333;
+  }
+  li a:hover {
+    text-decoration: underline;
+    color: $agilesg-red;
   }
 }
 
-.navbar button {
-  display: none;
+.navbar-collapse.in .navbar-nav {
+  display: block;
+  
+  li {
+    text-align: center;
+  }
+  .btn-default {
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+  }
 }
 
-header {
+.navbar-toggle {
+  border: none;
+  @include breakpoint(screen-sm) {
+    display: none;    
+  }
+  .icon-bar {
+    background: #999;
+    transition: background-color 0.5s;
+  }
+  &:hover .icon-bar {
+    background: $agilesg-red;
+  }
+}
+
+.branding {
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url("../images/new_mast.jpg") no-repeat center center;
   background-size: cover;
   margin-bottom: 0;
   color: #fff;
+  text-align: center;
+  
   @include rhythm-padding(2);
+  margin-top: 50px;
 
   @include breakpoint(screen-xsm) {
     min-height: 300px;
@@ -92,18 +128,9 @@ header {
   }
 }
 
-.branding {
-  text-align: center;
-}
-
 .notify {
   @include breakpoint(screen-sm) {
     @include rhythm(1);
-  }
-}
-
-@media screen and (min-width: 30em) {
-  .branding h1 {
   }
 }
 
@@ -112,17 +139,13 @@ header {
   text-align: center;
   background: url("../images/agilesg2016_masthead_640.jpg") no-repeat center top;
   min-height: 200px;
-}
-
-@media screen and (min-width: 40em) {
-  .page-masthead {
+  
+  @include breakpoint(screen-xsm) {
     background: url("../images/agilesg2016_masthead_1280.jpg") no-repeat center top;
     min-height: 400px;
   }
-}
-
-@media screen and (min-width: 80em) {
-  .page-masthead {
+  
+  @include breakpoint(screen-lg) {
     background: url("../images/agilesg2016_masthead_1920.jpg") no-repeat center top;
     min-height: 600px;
   }

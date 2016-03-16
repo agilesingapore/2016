@@ -130,6 +130,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/images\/organisers\/clement.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6833,
+		"inputAbbreviatedPath": "\/_site\/images\/organisers\/clement.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/organisers\/clement.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/images\/organisers\/kiat.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -203,6 +214,17 @@
 		"initialSize": 21507,
 		"inputAbbreviatedPath": "\/_site\/images\/speakers\/arlo.jpg",
 		"outputAbbreviatedPath": "\/_site\/images\/speakers\/arlo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/speakers\/bas.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 49551,
+		"inputAbbreviatedPath": "\/_site\/images\/speakers\/bas.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/speakers\/bas.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -302,6 +324,17 @@
 		"initialSize": 45459,
 		"inputAbbreviatedPath": "\/_site\/images\/speakers\/jutta.jpg",
 		"outputAbbreviatedPath": "\/_site\/images\/speakers\/jutta.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/speakers\/martin.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 83088,
+		"inputAbbreviatedPath": "\/_site\/images\/speakers\/martin.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/speakers\/martin.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -557,15 +590,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/_site\/pricing.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/pricing.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_site\/sass\/styles.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -587,6 +611,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/sponsors.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/tickets.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/tickets.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -719,6 +752,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/organisers\/clement.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6833,
+		"inputAbbreviatedPath": "\/images\/organisers\/clement.jpg",
+		"outputAbbreviatedPath": "\/images\/organisers\/clement.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/organisers\/kiat.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -792,6 +836,17 @@
 		"initialSize": 21507,
 		"inputAbbreviatedPath": "\/images\/speakers\/arlo.jpg",
 		"outputAbbreviatedPath": "\/images\/speakers\/arlo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/speakers\/bas.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 49551,
+		"inputAbbreviatedPath": "\/images\/speakers\/bas.jpg",
+		"outputAbbreviatedPath": "\/images\/speakers\/bas.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -891,6 +946,17 @@
 		"initialSize": 45459,
 		"inputAbbreviatedPath": "\/images\/speakers\/jutta.jpg",
 		"outputAbbreviatedPath": "\/images\/speakers\/jutta.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/speakers\/martin.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 83088,
+		"inputAbbreviatedPath": "\/images\/speakers\/martin.jpg",
+		"outputAbbreviatedPath": "\/images\/speakers\/martin.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1146,15 +1212,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/pricing.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/pricing.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/sass\/_about.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -1283,22 +1340,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/sass\/_pricing.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/sass\/_pricing.scss",
-		"outputAbbreviatedPath": "\/stylesheets\/_pricing.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
 	"\/sass\/_speakers.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -1324,6 +1365,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sass\/_sponsors.scss",
 		"outputAbbreviatedPath": "\/stylesheets\/_sponsors.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/sass\/_tickets.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/_tickets.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_tickets.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1361,6 +1418,15 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/stylesheets\/styles.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/tickets.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/tickets.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

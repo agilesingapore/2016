@@ -3,19 +3,19 @@
 // -----------------------------------------------------------------------------
 @mixin breakpoint($class) {
   @if $class == screen-xs {
-    @media (max-width: $screen-xs-max) { @content; }
+    @media (max-width: $screen-xs) { @content; }
   }
   @else if $class == screen-sm {
-    @media (min-width: $screen-sm-min) { @content; }
+    @media (min-width: $screen-sm) { @content; }
   }
   @else if $class == screen-xsm {
     @media (min-width: $screen-xsm) { @content; }
   }
   @else if $class == screen-md {
-    @media (min-width: $screen-md-min) { @content; }
+    @media (min-width: $screen-md) { @content; }
   }
   @else if $class == screen-lg {
-    @media (min-width: $screen-lg-min) { @content; }
+    @media (min-width: $screen-lg) { @content; }
   }
   @else {
     @warn "Breakpoint mixin supports: screen-xs, screen-sm, screen-md, screen-lg";
