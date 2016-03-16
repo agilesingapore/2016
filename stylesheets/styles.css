@@ -5864,8 +5864,7 @@ h2, h3 {
   width: 200px; }
 
 #content {
-  padding-top: 3em;
-  padding-bottom: 3em; }
+  padding: 5em 0 3em 0; }
 
 .navbar {
   margin-bottom: 0;
