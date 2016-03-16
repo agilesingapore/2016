@@ -1,0 +1,70 @@
+@mixin section-h2() {
+  h2 {
+    text-align: center;
+    margin: 0 0 1.2em 0;
+    color: #343434;
+    font-size: 34px;
+  }
+}
+
+.review-process {
+  background: #f2f2f2;
+  @include rhythm-padding(2);
+  @include section-h2();
+}
+
+.selection {
+  background: #ffffff;
+  @include rhythm-padding(2);
+  @include section-h2();
+}
+
+.good-propoosal {
+  background: #f2f2f2;
+  @include rhythm-padding(2);
+  @include section-h2();
+}
+
+.best-selection {
+  background: #ffffff;
+  @include rhythm-padding(2);
+  @include section-h2();
+}
+
+.compensation {
+  background: #f2f2f2;
+  @include rhythm-padding(2);
+  @include section-h2();
+}
+
+.program-team {
+  background: #ffffff;
+  @include rhythm-padding(2);
+  @include section-h2();
+
+  ul, li {
+    list-style: none;
+    //margin: 0;
+    padding: 0;
+  }
+  li {
+    text-align: center;
+  }
+  .organiser-photo {
+    margin: 0 0 10px 0;
+    img {
+      width: 50%;
+      height: inherit;
+      border-radius: 50%;
+    }
+  }
+  .organiser-bio {
+    font-size: 0.9em;
+
+    .speaker-name {
+      font-weight: 500;
+      font-size: 1.25em;
+      color: $agilesg-dgrey;
+    }
+  }
+}

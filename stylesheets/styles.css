@@ -6387,3 +6387,80 @@ h2, h3 {
     background: #3B5998; }
   .site-footer .btn.twitter {
     background: #00ACED; }
+
+.review-process {
+  background: #f2f2f2;
+  padding-top: 3em;
+  padding-bottom: 3em; }
+  .review-process h2 {
+    text-align: center;
+    margin: 0 0 1.2em 0;
+    color: #343434;
+    font-size: 34px; }
+
+.selection {
+  background: #ffffff;
+  padding-top: 3em;
+  padding-bottom: 3em; }
+  .selection h2 {
+    text-align: center;
+    margin: 0 0 1.2em 0;
+    color: #343434;
+    font-size: 34px; }
+
+.good-propoosal {
+  background: #f2f2f2;
+  padding-top: 3em;
+  padding-bottom: 3em; }
+  .good-propoosal h2 {
+    text-align: center;
+    margin: 0 0 1.2em 0;
+    color: #343434;
+    font-size: 34px; }
+
+.best-selection {
+  background: #ffffff;
+  padding-top: 3em;
+  padding-bottom: 3em; }
+  .best-selection h2 {
+    text-align: center;
+    margin: 0 0 1.2em 0;
+    color: #343434;
+    font-size: 34px; }
+
+.compensation {
+  background: #f2f2f2;
+  padding-top: 3em;
+  padding-bottom: 3em; }
+  .compensation h2 {
+    text-align: center;
+    margin: 0 0 1.2em 0;
+    color: #343434;
+    font-size: 34px; }
+
+.program-team {
+  background: #ffffff;
+  padding-top: 3em;
+  padding-bottom: 3em; }
+  .program-team h2 {
+    text-align: center;
+    margin: 0 0 1.2em 0;
+    color: #343434;
+    font-size: 34px; }
+  .program-team ul, .program-team li {
+    list-style: none;
+    padding: 0; }
+  .program-team li {
+    text-align: center; }
+  .program-team .organiser-photo {
+    margin: 0 0 10px 0; }
+    .program-team .organiser-photo img {
+      width: 50%;
+      height: inherit;
+      border-radius: 50%; }
+  .program-team .organiser-bio {
+    font-size: 0.9em; }
+    .program-team .organiser-bio .speaker-name {
+      font-weight: 500;
+      font-size: 1.25em;
+      color: #343434; }
