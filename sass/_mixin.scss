@@ -25,3 +25,12 @@
 @mixin debug($color) {
   border: 1px solid $color;
 }
+
+@mixin section-h2() {
+  h2 {
+    text-align: center;
+    margin: 0 0 1.2em 0;
+    color: #343434;
+    font-size: 34px;
+  }
+}
