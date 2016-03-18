@@ -1,0 +1,11 @@
+.program {
+  background: #f2f2f2;
+  @include rhythm-padding(2);
+  @include section-h2();
+}
+
+.themes {
+  background: #ffffff;
+  @include rhythm-padding(2);
+  @include section-h2();
+}
