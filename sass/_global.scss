@@ -19,6 +19,11 @@ a {
 
 a:hover {
   text-decoration: underline;
+  color: $agilesg-lgrey;
+}
+h1 {
+  font-size: 4rem;
+  font-weight: 300;
 }
 
 h2, h3 {
@@ -27,10 +32,12 @@ h2, h3 {
 }
 
 h2 {
-  text-align: center;
   margin: 0 0 1.2em 0;
-  color: #343434;
-  font-size: 34px;
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.4rem;
 }
 
 .btn {
@@ -70,6 +77,28 @@ h2 {
   width: 200px;
 }
 
-#content {
-  padding: 5em 0 3em 0;
+.jumbotron {
+  background: #f2f2f2;
+  margin-top: 50px;
+  margin-bottom: 0;
+  text-align: center;
+
+  h1 {
+    margin: 0 0 2rem 0;
+    font-size: 4rem;
+  }
+
+  p {
+    margin-bottom: 15px;
+    font-size: 1.6rem;
+    font-weight: 400;
+  }
+}
+
+.content {
+  @include rhythm-padding(2);
+
+  h2 {
+    text-align: center;
+  }
 }

@@ -1,37 +1,29 @@
 .review-process {
-  background: #f2f2f2;
-  @include rhythm-padding(2);
-  @include section-h2();
+  background: #fff;
 }
 
 .selection {
-  background: #ffffff;
-  @include rhythm-padding(2);
-  @include section-h2();
+  background: #f2f2f2;
 }
 
 .good-propoosal {
-  background: #f2f2f2;
+  background: #fff;
   @include rhythm-padding(2);
-  @include section-h2();
 }
 
 .best-selection {
-  background: #ffffff;
+  background: #f2f2f2;
   @include rhythm-padding(2);
-  @include section-h2();
 }
 
 .compensation {
-  background: #f2f2f2;
+  background: #fff;
   @include rhythm-padding(2);
-  @include section-h2();
 }
 
 .program-team {
-  background: #ffffff;
+  background: #f2f2f2;
   @include rhythm-padding(2);
-  @include section-h2();
 
   ul, li {
     list-style: none;
