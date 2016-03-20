@@ -1,6 +1,8 @@
 .featured-speakers {
   @include rhythm-padding(2);
-
+  h2 {
+    margin-bottom: 3rem;
+  }
   ul, li {
     list-style: none;
     margin: 0;

@@ -71,7 +71,7 @@
 }
 
 .branding {
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url("../images/new_mast.jpg") no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url("/images/new_mast.jpg") no-repeat center center;
   background-size: cover;
   margin-bottom: 0;
   color: #fff;
@@ -93,7 +93,7 @@
     min-height: 78px;
     margin: 0 auto 20px;
     text-indent: -9999px;
-    background: url("../images/agile-2016-logo-header.svg") no-repeat center center;
+    background: url("/images/agile-2016-logo-header.svg") no-repeat center center;
     background-size: 90%;
 
     @include breakpoint(screen-sm) {
@@ -137,16 +137,16 @@
 .page-masthead {
   color: #fff;
   text-align: center;
-  background: url("../images/agilesg2016_masthead_640.jpg") no-repeat center top;
+  background: url("/images/agilesg2016_masthead_640.jpg") no-repeat center top;
   min-height: 200px;
   
   @include breakpoint(screen-xsm) {
-    background: url("../images/agilesg2016_masthead_1280.jpg") no-repeat center top;
+    background: url("/images/agilesg2016_masthead_1280.jpg") no-repeat center top;
     min-height: 400px;
   }
   
   @include breakpoint(screen-lg) {
-    background: url("../images/agilesg2016_masthead_1920.jpg") no-repeat center top;
+    background: url("/images/agilesg2016_masthead_1920.jpg") no-repeat center top;
     min-height: 600px;
   }
 }

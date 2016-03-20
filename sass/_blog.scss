@@ -1,0 +1,30 @@
+.blog {
+  .jumbotron h1 {
+    margin: 0;
+  }
+  .content h2 {
+    text-align: left;
+  }
+}
+
+.blog-listing {
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    list-style: none;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  h3 {
+    margin-top: 0;
+  }
+
+  .post-date {
+    color: $agilesg-lgrey;
+  }
+}

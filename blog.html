@@ -1,0 +1,27 @@
+---
+layout: default
+title: Conference Updates |
+bodyClass: blog
+---
+
+<section class="jumbotron">
+  <div class="container">
+    <div class="col-md-8 col-md-offset-2">
+      <h1>Conference Updates</h1>
+    </div>
+  </section>
+  <section class="blog-listing content">
+    <div class="container">
+      <div class="col-md-8 col-md-offset-2">
+        <ul>
+          {% for post in site.posts %}
+            <li>
+              <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+              <p class="post-date">{{ post.date | date_to_string }}</p>
+              {{ post.excerpt }}
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </section>

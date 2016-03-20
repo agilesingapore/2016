@@ -5840,7 +5840,7 @@ h2, h3 {
   color: #343434; }
 
 h2 {
-  margin: 0 0 1.2em 0;
+  margin: 0 0 1.2rem 0;
   font-size: 3rem; }
 
 h3 {
@@ -5953,7 +5953,7 @@ h3 {
     background: #EC1D24; }
 
 .branding {
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url("../images/new_mast.jpg") no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url("/images/new_mast.jpg") no-repeat center center;
   background-size: cover;
   margin-bottom: 0;
   color: #fff;
@@ -5972,7 +5972,7 @@ h3 {
     min-height: 78px;
     margin: 0 auto 20px;
     text-indent: -9999px;
-    background: url("../images/agile-2016-logo-header.svg") no-repeat center center;
+    background: url("/images/agile-2016-logo-header.svg") no-repeat center center;
     background-size: 90%; }
     @media (min-width: 768px) {
       .branding h1 {
@@ -6011,15 +6011,15 @@ h3 {
 .page-masthead {
   color: #fff;
   text-align: center;
-  background: url("../images/agilesg2016_masthead_640.jpg") no-repeat center top;
+  background: url("/images/agilesg2016_masthead_640.jpg") no-repeat center top;
   min-height: 200px; }
   @media (min-width: 600px) {
     .page-masthead {
-      background: url("../images/agilesg2016_masthead_1280.jpg") no-repeat center top;
+      background: url("/images/agilesg2016_masthead_1280.jpg") no-repeat center top;
       min-height: 400px; } }
   @media (min-width: 1200px) {
     .page-masthead {
-      background: url("../images/agilesg2016_masthead_1920.jpg") no-repeat center top;
+      background: url("/images/agilesg2016_masthead_1920.jpg") no-repeat center top;
       min-height: 600px; } }
 
 .site-description {
@@ -6243,9 +6243,29 @@ h3 {
   margin-right: .5em;
   font-weight: bold; }
 
+.blog .jumbotron h1 {
+  margin: 0; }
+.blog .content h2 {
+  text-align: left; }
+
+.blog-listing ul {
+  padding: 0;
+  margin: 0; }
+.blog-listing li {
+  list-style: none;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem; }
+.blog-listing h3 {
+  margin-top: 0; }
+.blog-listing .post-date {
+  color: #606c71; }
+
 .featured-speakers {
   padding-top: 3em;
   padding-bottom: 3em; }
+  .featured-speakers h2 {
+    margin-bottom: 3rem; }
   .featured-speakers ul, .featured-speakers li {
     list-style: none;
     margin: 0;
