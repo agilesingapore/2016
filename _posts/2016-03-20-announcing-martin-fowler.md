@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Martin Fowler will be joining us at Agile Singapore!
-category: updates
+category: blog
 bodyClass: blog
 ---
 
