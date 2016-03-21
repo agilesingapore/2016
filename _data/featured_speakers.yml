@@ -52,6 +52,12 @@
   photo_name: jeff
   url: "http://www.jeffgothelf.com"
 
+- name: "Jon Chan"
+  company: "Stack Overflow"
+  bio: "Marketing Engineering & Evangelism at Stack Overflow, Founder of Bento"
+  photo_name: jon
+  url: "https://twitter.com/jonhmchan"
+
 - name: "Joshua Kerievsky"
   company: "Industrial Logic"
   bio: "Author of Refactoring to Patterns and creator of Modern Agile"

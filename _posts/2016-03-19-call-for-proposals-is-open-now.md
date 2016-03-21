@@ -5,15 +5,18 @@ category: updates
 bodyClass: blog
 ---
 
-Just about every web server configuration you come across will look for an HTML file called index.html (by convention) in the site’s root folder and display that as the homepage. 
+Some sample texts.
 
-Unless the web server you’re using is configured to look for some different filename as the default, this file will turn into the homepage of your Jekyll-generated site.
+### Martin Fowler speaks at closing keynote
+* excited that we got Martin Fowler
+* author of many books including the popular http://martinfowler.com/books/refactoring.html, http://martinfowler.com/books/eaa.html and many more http://martinfowler.com/aboutMe.html
+* well sought speaker in many famous conferences
 
-### This is a header 3
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+### Call for Proposals
+* submissions will open for two months
+* the program team will review the submissions
+* make sure you have read the details for CfP (2016.agilesingapore.org/call_for_proposals.html) before proceed to submit
+
+### Title Sponsor, ThoughtWorks
+* appreciate ThoughtWorks for supporting the conference
