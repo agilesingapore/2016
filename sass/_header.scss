@@ -10,7 +10,7 @@
 
 .navbar-nav {
   display: none;
-  
+
   @include breakpoint(screen-sm) {
     display: block;
   }
@@ -45,7 +45,7 @@
 
 .navbar-collapse.in .navbar-nav {
   display: block;
-  
+
   li {
     text-align: center;
   }
@@ -59,7 +59,7 @@
 .navbar-toggle {
   border: none;
   @include breakpoint(screen-sm) {
-    display: none;    
+    display: none;
   }
   .icon-bar {
     background: #999;
@@ -76,7 +76,7 @@
   margin-bottom: 0;
   color: #fff;
   text-align: center;
-  
+
   @include rhythm-padding(2);
   margin-top: 50px;
 
@@ -129,9 +129,7 @@
 }
 
 .notify {
-  @include breakpoint(screen-sm) {
-    @include rhythm(1);
-  }
+  margin-bottom: 1em;
 }
 
 .page-masthead {
@@ -139,12 +137,12 @@
   text-align: center;
   background: url("/images/agilesg2016_masthead_640.jpg") no-repeat center top;
   min-height: 200px;
-  
+
   @include breakpoint(screen-xsm) {
     background: url("/images/agilesg2016_masthead_1280.jpg") no-repeat center top;
     min-height: 400px;
   }
-  
+
   @include breakpoint(screen-lg) {
     background: url("/images/agilesg2016_masthead_1920.jpg") no-repeat center top;
     min-height: 600px;
