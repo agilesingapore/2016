@@ -9625,17 +9625,17 @@ h3 {
   }
 }
 
-/* line 66, ../sass/_sponsors.scss */
+/* line 65, ../sass/_sponsors.scss */
 .sponsor-placeholder {
   position: relative;
   margin-left: auto;
   margin-right: auto;
   min-width: 260px;
-  max-width: 380px;
+  max-width: 340px;
   height: 120px;
-  margin-bottom: 2em;
+  margin-bottom: 3em;
 }
-/* line 75, ../sass/_sponsors.scss */
+/* line 74, ../sass/_sponsors.scss */
 .sponsor-placeholder p {
   font-size: 0.9em;
   margin: 0;
