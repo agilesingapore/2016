@@ -23,24 +23,57 @@ bodyClass: home
 </div>
 </div>
 </header>
+
 <section class="featured-speakers content">
   <div class="container">
     <div class="col-sm-12">
-      <h2><a name="speakers"></a>Featured Speakers - more to come...</h2>
+      <h2>Keynote Speakers</h2>
         <ul>
           {% for speaker in site.data.featured_speakers %}
-          <li class="col-xsm-6 col-sm-3">
-            <p class="speaker-photo">
-              <img src="/images/speakers/{{speaker.photo_name}}.jpg" alt="{{speaker.name}}">
-            </p>
-            <p class="speaker-bio">
-              <a href="{{speaker.url}}" target="_blank" class="speaker-name">{{speaker.name}}</a><br />
-              {{speaker.company}}<br />
-              {{speaker.bio}}
-            </p>
-          </li>
+            {% if speaker.keynote == true %}
+            <li class="col-sm-4">
+              <p class="speaker-photo">
+                <img src="/images/speakers/{{speaker.photo_name}}.jpg" alt="{{speaker.name}}">
+              </p>
+              <p class="speaker-lead">
+                <a href="{{speaker.url}}" target="_blank" class="speaker-name">{{speaker.name}}</a><br />
+                {{speaker.company}}<br />
+                {{speaker.lead}}
+              </p>
+
+              {% if speaker.topics %}
+                <button type="button" class="btn button" data-toggle="modal" data-target="#model-{{speaker.photo_name}}">See Topics</button>
+
+                  <div class="modal fade" id="model-{{speaker.photo_name}}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog modal-lg" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                          <h4 class="modal-title" id="myModalLabel">{{speaker.name}}</h4>
+                        </div>
+                        <div class="modal-body">
+                          {% for topic in speaker.topics %}
+                            <h3>{{ topic.title }}</h3>
+                            <p>{{ topic.abstract }}</p>
+                          {% endfor %}
+                          <hr/>
+                          <h4>About {{speaker.name}}</h4>
+                          {{speaker.bio}}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+              {% else %}
+                <button type="button" class="btn button disabled">Waiting...</button>
+              {% endif %}
+            </li>
+            {% endif %}
           {% endfor %}
         </ul>
+    </div>
+    <div class="col-md-4 col-md-offset-4 text-center see-all-speakers">
+      <a class="btn button reverse" href="/speakers.html">See all speakers</a>
     </div>
   </div>
 </section>
@@ -53,16 +86,6 @@ bodyClass: home
       <h3>Speak to us to find out more about sponsorship</h3>
       <a class="btn button reverse" href="http://2016.agilesingapore.org/docs/2016_sponsorship.pdf" target="_blank" onClick="ga('send','event','sponsorship','download','Download kit',50);">Get our sponsorship kit</a>
       <a class="btn button" href="mailto:organisers@agilesingapore.org?subject=Agile Singapore 2016 Sponsorship" target="_blank" onClick="ga('send','event','sponsorship','email','Sponsorship enquiry',100);">Send us an email</a>
-    </div>
-  </div>
-</section>
-
-<section class="content">
-  <a name="proposals"></a>
-  <div class="container">
-    <div class="col-sm-12">
-      <h2><i class="fa fa-file-text-o fa-1x"></i>  Call for Proposals</h2>
-      <p class="text-center">To be announced in March 2016</p>
     </div>
   </div>
 </section>

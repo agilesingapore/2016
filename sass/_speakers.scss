@@ -20,8 +20,9 @@
       border-radius: 50%;
     }
   }
-  .speaker-bio {
+  .speaker-lead {
     font-size: 0.85em;
+    height: 6.3em;
 
     .speaker-name {
       font-weight: 500;
@@ -29,6 +30,10 @@
       color: $agilesg-dgrey;
     }
   }
+}
+
+.see-all-speakers {
+  margin-top: 2em;
 }
 
 @media (min-width: 480px) and (max-width: 767px) {

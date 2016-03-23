@@ -1,113 +1,151 @@
 - name: "Aaron Sanders"
-  bio: "Helping teams build valuable, usable & feasible products"
+  lead: "Helping teams build valuable, usable & feasible products"
   company: "Aaron Sanders"
   photo_name: aaron
   url: "http://aaron.sanders.name"
+  keynote: false
 
 - name: "Arlo Belshee"
-  bio: "Creator of Promiscuous Pairing and Naked Planning"
+  lead: "Creator of Promiscuous Pairing and Naked Planning"
   company: "Industrial Logic"
   photo_name: arlo
   url: "https://www.linkedin.com/in/arlobelshee"
+  keynote: false
 
 - name: "Amy Jo Kim"
-  bio: "Social game designer, community architect and startup coach"
+  lead: "Social game designer, community architect and startup coach"
   company: "Shufflebrain"
   photo_name: amy
   url: "http://amyjokim.com"
+  keynote: false
 
 - name: "Bas Vodde"
-  bio: "Creator of Large Scale Scrum (LeSS)"
+  lead: "Creator of Large Scale Scrum (LeSS)"
   company: "Odd-e"
   photo_name: bas
   url: "https://www.linkedin.com/in/basvodde"
+  keynote: false
 
 - name: "Danielle Jabin"
-  bio: "Spotify engineer turned Agile Coach"
+  lead: "Spotify engineer turned Agile Coach"
   company: "Spotify"
   photo_name: danielle
   url: "https://www.linkedin.com/in/djabin"
+  keynote: false
 
 - name: "Fred George"
-  bio: "Early Advocate of MicroServices and Managerless Teams"
+  lead: "Early Advocate of MicroServices and Managerless Teams"
   company: "Fred George Consulting"
   photo_name: fred
   url: "https://www.linkedin.com/in/fred-george-5965b5"
+  keynote: false
 
 - name: "Gerard Meszaros"
-  bio: "Author of xUnit Test Patterns: Refactoring Test Code"
+  lead: "Author of xUnit Test Patterns: Refactoring Test Code"
   company: "FeedXL"
   photo_name: gerard
   url: "https://www.linkedin.com/in/gerardmeszaros"
+  keynote: false
 
 - name: "Gojko Adzic"
-  bio: "Author of Specification by Example, Impact Mapping and more"
+  lead: "Author of Specification by Example, Impact Mapping and more"
   company: "Neuri Consulting LLP"
   photo_name: gojko
   url: "https://gojko.net"
+  keynote: false
 
 - name: "Jeff Gothelf"
   company: "Gothelf Corp"
-  bio: "Author of Lean UX & Sense And Respond"
+  lead: "Author of Lean UX & Sense And Respond"
   photo_name: jeff
   url: "http://www.jeffgothelf.com"
+  keynote: false
 
 - name: "Jon Chan"
   company: "Stack Overflow"
-  bio: "Marketing Engineering & Evangelism at Stack Overflow, Founder of Bento"
+  lead: "Marketing Engineering & Evangelism at Stack Overflow, Founder of Bento"
   photo_name: jon
   url: "https://twitter.com/jonhmchan"
+  keynote: false
 
 - name: "Joshua Kerievsky"
   company: "Industrial Logic"
-  bio: "Author of Refactoring to Patterns and creator of Modern Agile"
+  lead: "Author of Refactoring to Patterns and creator of Modern Agile"
   photo_name: joshua
   url: "https://www.linkedin.com/in/joshuakerievsky"
+  keynote: true
 
 - name: "Justin Searls"
   company: "Test Double"
-  bio: "Author of jasmine-rails and jasmine-maven-plugin"
+  lead: "Author of jasmine-rails and jasmine-maven-plugin"
   photo_name: justin
   url: "https://www.linkedin.com/in/searls"
+  keynote: false
 
 - name: "Jutta Eckstein"
   company: "Jutta Eckstein"
-  bio: "Author of Agile Software Development with Distributed Teams et.al."
+  lead: "Author of Agile Software Development with Distributed Teams et.al."
   photo_name: jutta
   url: "http://www.jeckstein.com"
+  keynote: false
 
 - name: "Martin Fowler"
   company: "ThoughtWorks"
-  bio: "Author, speaker and consultant"
+  lead: "Author, speaker and consultant"
   photo_name: martin
   url: "http://martinfowler.com"
+  keynote: true
+  bio: >
+    <p>I am an author, speaker… essentially a loud-mouthed pundit on the topic of software development. I work for ThoughtWorks, a software delivery company, where I have the exceedingly inappropriate title of “Chief Scientist”. I’ve written half-a-dozen books on software development, including Refactoring and Patterns of Enterprise Application Architecture. I write regularly about software development on martinfowler.com
+    </p>
+  topics:
+    - title: "Software Design in the 21st Century"
+      abstract: "In the last decade or so we've seen a number of new ideas added to the mix to help us effectively design our software. Patterns help us capture the solutions and rationale for using them. Refactoring allows us to alter the design of a system after the code is written. Agile methods, in particular Extreme Programming, give us a highly iterative and evolutionary approach which is particularly well suited to changing requirements and environments. Martin Fowler has been a leading voice in these techniques and will give a suite of short talks featuring various aspects about his recent thinking about how these and other developments affect our software development."
 
 - name: "Mary and Tom Poppendieck"
   company: "Poppendieck.LLC"
-  bio: "Author of Lean Mindset and the Lean Software Development series"
+  lead: "Author of Lean Mindset and the Lean Software Development series"
   photo_name: mary
   url: "http://www.poppendieck.com"
+  keynote: true
+  bio: >
+    <p>Mary Poppendieck started her career as a process control programmer, moved on to manage the IT department of a manufacturing plant, and then ended up in product development, where she was both a product champion and department manager.
+    </p>
+    <p>Mary considered retirement 1998, but instead found herself managing a government software project where she first encountered the word "waterfall." When Mary compared her experience in successful software and product development to the prevailing opinions about how to manage software projects, she decided the time had come for a new paradigm. She wrote the award-winning book Lean Software Development: An Agile Toolkit in 2003 to explain how the lean principles from manufacturing offer a better approach to software development.
+    </p>
+    <p>Over the past several years, Mary has found retirement elusive as she lectures and teaches classes with her husband Tom. Based on their on-going learning, they wrote a second book, Implementing Lean Software Development: From Concept to Cash in 2006, a third, Leading Lean Software Development: Results are Not the Point in 2009, and a fourth book, The Lean Mindset: Ask the Right Questions in 2013. A popular writer and speaker, Mary continues to bring fresh perspectives to the world of software development.
+    </p>
+    <p>Website: http://www.poppendieck.com
+    </p>
+
+  topics:
+    - title: "The Future has Arrived"
+      abstract: "2020 used to be far in the future. Today it’s four years away. We no longer need to guess what breakthroughs await us in that magic year, the future is hiding in plain sight. The Cloud, Big Data, the Internet of Things, Virtual Reality. The question is not what the technologies of 2020 will be – that is rapidly coming into focus. The real question is: What’s important, what isn’t, and why? Should you focus on Continuous Delivery? DevOps? How do you get from where you are now to where you need to be? How do you scale? How do you keep your systems reliable and secure? This talk will discuss how software engineering is changed by the emerging digital technologies."
 
 - name: "Michael Feathers"
   company: "R7K Research & Conveyance"
-  bio: "Author of Working Effectively with Legacy Code"
+  lead: "Author of Working Effectively with Legacy Code"
   photo_name: michael
   url: "https://michaelfeathers.silvrback.com"
+  keynote: false
 
 - name: "Nicole Forsgren"
   company: "Chef"
-  bio: "Lead investigator State of DevOps Reports, DevOps researcher and expert"
+  lead: "Lead investigator State of DevOps Reports, DevOps researcher and expert"
   photo_name: nicole
   url: "http://www.nicoleforsgren.com"
+  keynote: false
 
 - name: "Pramod Sadalage"
   company: "ThoughtWorks"
-  bio: "Author of Refactoring Databases and NoSQL Distilled"
+  lead: "Author of Refactoring Databases and NoSQL Distilled"
   photo_name: pramod
   url: "http://sadalage.com"
+  keynote: false
 
 - name: "Woody Zuill"
   company: "Woody Zuill"
-  bio: "Creator of Mob Programming"
+  lead: "Creator of Mob Programming"
   photo_name: woody
   url: "http://mobprogramming.org"
+  keynote: false

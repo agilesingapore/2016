@@ -8120,13 +8120,19 @@ h3 {
 }
 
 /* line 75, ../sass/_global.scss */
+.button.disabled {
+  background-color: #EEEEEE;
+  color: #343434;
+}
+
+/* line 80, ../sass/_global.scss */
 .button.cta-tickets {
   font-size: 1.4em;
   margin-bottom: 0.3em;
   width: 200px;
 }
 
-/* line 81, ../sass/_global.scss */
+/* line 86, ../sass/_global.scss */
 .jumbotron {
   background: #f2f2f2;
   margin-top: 50px;
@@ -8136,24 +8142,24 @@ h3 {
   padding-left: 0;
   padding-right: 0;
 }
-/* line 90, ../sass/_global.scss */
+/* line 95, ../sass/_global.scss */
 .jumbotron h1 {
   margin: 0 0 2rem 0;
   font-size: 4rem;
 }
-/* line 95, ../sass/_global.scss */
+/* line 100, ../sass/_global.scss */
 .jumbotron p {
   margin-bottom: 15px;
   font-size: 1.6rem;
   font-weight: 400;
 }
 
-/* line 102, ../sass/_global.scss */
+/* line 107, ../sass/_global.scss */
 .content {
   padding-top: 3em;
   padding-bottom: 3em;
 }
-/* line 105, ../sass/_global.scss */
+/* line 110, ../sass/_global.scss */
 .content h2 {
   text-align: center;
 }
@@ -8723,18 +8729,24 @@ h3 {
   border-radius: 50%;
 }
 /* line 23, ../sass/_speakers.scss */
-.featured-speakers .speaker-bio {
+.featured-speakers .speaker-lead {
   font-size: 0.85em;
+  height: 6.3em;
 }
-/* line 26, ../sass/_speakers.scss */
-.featured-speakers .speaker-bio .speaker-name {
+/* line 27, ../sass/_speakers.scss */
+.featured-speakers .speaker-lead .speaker-name {
   font-weight: 500;
   font-size: 1.2em;
   color: #343434;
 }
 
+/* line 35, ../sass/_speakers.scss */
+.see-all-speakers {
+  margin-top: 2em;
+}
+
 @media (min-width: 480px) and (max-width: 767px) {
-  /* line 35, ../sass/_speakers.scss */
+  /* line 40, ../sass/_speakers.scss */
   .featured-speakers .col-xsm-6 {
     width: 49%;
     display: inline-block;
