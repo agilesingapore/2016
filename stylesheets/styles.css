@@ -8994,63 +8994,67 @@ h3 {
 .review-process {
   background: #fff;
 }
+/* line 38, ../sass/_call-for-proposals.scss */
+.review-process .text-smaller {
+  font-size: 0.9em;
+}
 
-/* line 39, ../sass/_call-for-proposals.scss */
+/* line 43, ../sass/_call-for-proposals.scss */
 .selection {
   background: #f2f2f2;
 }
 
-/* line 43, ../sass/_call-for-proposals.scss */
+/* line 47, ../sass/_call-for-proposals.scss */
 .good-propoosal {
   background: #fff;
   padding-top: 3em;
   padding-bottom: 3em;
 }
 
-/* line 48, ../sass/_call-for-proposals.scss */
+/* line 52, ../sass/_call-for-proposals.scss */
 .best-selection {
   background: #f2f2f2;
   padding-top: 3em;
   padding-bottom: 3em;
 }
 
-/* line 53, ../sass/_call-for-proposals.scss */
+/* line 57, ../sass/_call-for-proposals.scss */
 .compensation {
   background: #fff;
   padding-top: 3em;
   padding-bottom: 3em;
 }
 
-/* line 58, ../sass/_call-for-proposals.scss */
+/* line 62, ../sass/_call-for-proposals.scss */
 .program-team {
   background: #f2f2f2;
   padding-top: 3em;
   padding-bottom: 3em;
 }
-/* line 62, ../sass/_call-for-proposals.scss */
+/* line 66, ../sass/_call-for-proposals.scss */
 .program-team ul, .program-team li {
   list-style: none;
   padding: 0;
 }
-/* line 67, ../sass/_call-for-proposals.scss */
+/* line 71, ../sass/_call-for-proposals.scss */
 .program-team li {
   text-align: center;
 }
-/* line 70, ../sass/_call-for-proposals.scss */
+/* line 74, ../sass/_call-for-proposals.scss */
 .program-team .organiser-photo {
   margin: 0 0 10px 0;
 }
-/* line 72, ../sass/_call-for-proposals.scss */
+/* line 76, ../sass/_call-for-proposals.scss */
 .program-team .organiser-photo img {
   width: 50%;
   height: inherit;
   border-radius: 50%;
 }
-/* line 78, ../sass/_call-for-proposals.scss */
+/* line 82, ../sass/_call-for-proposals.scss */
 .program-team .organiser-bio {
   font-size: 0.9em;
 }
-/* line 81, ../sass/_call-for-proposals.scss */
+/* line 85, ../sass/_call-for-proposals.scss */
 .program-team .organiser-bio .speaker-name {
   font-weight: 500;
   font-size: 1.25em;
