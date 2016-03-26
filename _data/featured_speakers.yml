@@ -129,6 +129,13 @@
   url: "https://michaelfeathers.silvrback.com"
   keynote: false
 
+- name: "Naresh Jain"
+  company: "ConfEngine"
+  lead: "Founder, Agile India and Co-creator, Agile Coach Camp"
+  photo_name: naresh
+  url: "http://nareshjain.com"
+  keynote: false
+
 - name: "Nicole Forsgren"
   company: "Chef"
   lead: "Lead investigator State of DevOps Reports, DevOps researcher and expert"
