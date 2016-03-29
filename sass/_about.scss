@@ -1,3 +1,14 @@
+.about {
+  p {
+    text-align: left;
+  }
+
+  hr {
+    border-color: lighten($agilesg-lgrey, 40%);
+  }
+}
+
+
 .organisers {
   background: #fff;
   @include rhythm-padding(2);
