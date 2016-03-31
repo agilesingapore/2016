@@ -89,6 +89,13 @@
   url: "http://www.jeckstein.com"
   keynote: false
 
+- name: "Maria Matarelli"
+  company: "Formula Ink"
+  lead: "Certified Scrum Trainer and co-founder of the Agile Marketing Academy"
+  photo_name: maria
+  url: "http://www.formulaink.com"
+  keynote: false
+
 - name: "Martin Fowler"
   company: "ThoughtWorks"
   lead: "Author, speaker and consultant"
