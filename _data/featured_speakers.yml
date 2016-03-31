@@ -90,6 +90,16 @@
   photo_name: justin
   url: "https://www.linkedin.com/in/searls"
   keynote: false
+  bio: "Justin has a superpower: when he uses software, it stops working. With this power came the responsibility to show others what makes the world's software ugly, confusing, and broken. He co-founded Test Double, a software agency dedicated to making software that's better for businesses to manage, developers to work with, and customers to use."
+  topics:
+    - title: "How to Stop Hating your Tests"
+      abstract: >
+        <p>Your app is a unique snowflake. Your tests are too… but they shouldn't be!
+        </p>
+        <p>You know the person on every project team who cares just a little bit more about testing than everyone else? This talk is a distillation of the lessons learned I've learned from being that guy on dozens of projects.
+        </p>
+        <p>This is a rapid-fire session that covers 15 systemic problems that plague most teams' test suites, presented form an angle you probably haven't considered before. Best of all, it'll equip you with preventative measures to avoid or mitigate each of them.
+        </p>
 
 - name: "Jutta Eckstein"
   company: "Jutta Eckstein"
