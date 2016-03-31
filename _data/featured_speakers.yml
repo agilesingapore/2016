@@ -39,6 +39,15 @@
   photo_name: fred
   url: "https://www.linkedin.com/in/fred-george-5965b5"
   keynote: false
+  bio: >
+    <p>Fred George is a developer and co-founder at Outpace Systems, and has been writing code for over 45 years in (by his count) over 70 languages. He has delivered projects and products across his career, and in the last decade alone, has worked in the US, India, China, and the UK. He started ThoughtWorks University in Bangalore, India, based on a commercial programming training program he developed in the 90's. An early adopter of OO and Agile, Fred continues to impact the industry with his leading-edge ideas, most recently advocating Micro-Service.
+    </p>
+    <p>Architectures and flat team structures (under the moniker of Programmer Anarchy). Oh, and he still writes code!
+    </p>
+  topics:
+    - title: "Go Faster: Remove the Inhibitors to Innovation"
+      abstract: "A common theme runs through conferences, whether focused on MicroServices, DevOps, Lean Startup, or a myriad of other popular topics: Enabling an organization to Go Faster . I explore the need to go faster (which is hardly new), and three areas inhibitors arise: Technology choices, staid business Processes, and traditional Organization structures and roles. For each, I cite personal experiences in overcoming each."
+
 
 - name: "Gerard Meszaros"
   lead: "Author of xUnit Test Patterns: Refactoring Test Code"
