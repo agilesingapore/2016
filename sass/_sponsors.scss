@@ -27,6 +27,11 @@
   .thumbnail {
     background-color: transparent;
     border: 0;
+
+    img {
+      max-height: 120px;
+      max-width: 200px;
+    }
   }
 }
 
