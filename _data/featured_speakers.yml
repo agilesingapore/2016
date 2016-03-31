@@ -142,6 +142,26 @@
   photo_name: naresh
   url: "http://nareshjain.com"
   keynote: false
+  bio: >
+    <p>Geek...Consultant...Conference Producer...Startup Founder…struggling to stay up-to-date with technology innovation. Null Process Evangelist.
+    </p>
+    <p>Naresh Jain is an internationally recognized Technology & Product Development Expert. Over the last decade, he has helped streamline the product development practices at many Fortune 500 companies like Google, Amazon, HP, Siemens Medical, GE Energy, Schlumberger, EMC, CA Technologies, to name a few <a href="http://agilefaqs.com/services/clients#clients" target="_blank">clients</a>. These days, he is more focused on engineering excellence and product innovation. In a nutshell, hire him as a consultant/mentor, if your entire organization wants to move beyond the Agile and Lean mindset. Learn more about his <a href="http://agilefaqs.com/services" target="_blank">expert services</a>.
+    </p>
+  topics:
+    - title: "Dark Side of Collaboration"
+      abstract: >
+        <p>On Agile teams, collaboration is the way of life. Our leaders want their team members to work closely with each other, have shared goals and even think as one entity. Why? Because we believe that collaboration leads to happier, more productive teams that can build innovative products/services.
+        </p>
+        <p>It's strange that companies use the word collaboration very tightly with innovation. Collaboration is based on consensus building, which rarely leads to visionary or revolutionary products/services. Innovative/disruptive concepts require people to independently test out divergent ideas without getting caught up in collaborative boardroom meetings.
+        </p>
+        <p>In this presentation, Naresh Jain explores the scary, unspoken side of collaboration and explains in what context, collaboration can be extremely important; and when it can get in the way or be a total waste of time.
+        </p>
+    - title: "Test Driving a React.js UI Component with Jasmine"
+      abstract: >
+        <p>Over the past decade, eXtreme Programming practices like Test-Driven Development (TDD) & Behaviour Driven Developer (BDD), Refactoring, Continuous Integration and Automation have fundamentally changed software development processes and inherently how engineers work. While TDD has seen a great adoption on server side, developers still find it hard to apply TDD for developing UI components.
+        </p>
+        <p>In code walk-thru where Naresh will build a web commenting and discussion feature (like Disqus) in React.js, 100% test driven. He will also demonstrate how TDD will help us drive an object-functional design to strike a pragmatic balance between the Object-Oriented and Functional Programming paradigms.
+        </p>
 
 - name: "Nicole Forsgren"
   company: "Chef"
