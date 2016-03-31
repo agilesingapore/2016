@@ -114,6 +114,10 @@
   photo_name: maria
   url: "http://www.formulaink.com"
   keynote: false
+  bio: "Maria Matarelli is a Certified Scrum Trainer (CST) who travels the world on one-way tickets consulting and training companies on reaching true agility. In addition to applications of Agile in IT, Maria and her team have been applying Agile to the Marketing realm with incredible results. After co-founding the Agile Marketing Academy, Maria and a team of experienced trainers are dedicated to bringing Agile outside the normal applications. Maria is one of the first Certified Agile Marketing Trainers (CAMT) and is the Founder and President of Formula Ink, an international consulting company. Maria travels to consult organizations and speak at industry conferences with locations including Chicago, New York, Hawaii, Sweden, Istanbul, Vancouver, Morocco, Shanghai and many other locations. Maria is passionate about working with people to inspire agility."
+  topics:
+    - title: "Agile Marketing"
+      abstract: "Discover the possibilities of Agile Marketing and the power of applying Agile outside of IT. We’ll explore a case study of Agile applied to Marketing and discuss the benefits of aligning your organization’s use of Agile across departments along with the mindset shift necessary. Instead of focusing on who you can sell to, the focus is shifted to truly connecting with who needs your product or service most while leveraging rapid iterations for maximum output. Discover the value of split testing, inspecting and adapting, and applying an iterative process to your Marketing department. Agile Marketing allows you to adjust your focus and streamline your company processes aligned with Sales and Marketing to attract and service your ideal clients with exponential results."
 
 - name: "Martin Fowler"
   company: "ThoughtWorks"
@@ -193,7 +197,6 @@
     </p>
     <p>She holds a PhD in Management Information Systems and a Masters in Accounting. She has consulted and advised Fortune 50 Companies, startups and government agencies, and has been awarded public and private research grants (funders include NASA and the NSF). Her work has been featured in various media outlets, including the Wall Street Journal, Forbes, and InfoWeek.
     </p>
-
   topics:
     - title: "DevOps: The Key to IT Performance"
       abstract: "Do you want to know the latest on what really drives IT and business outcomes when you're trying to rollout DevOps? This is the talk for you. Here, you'll find out that the best IT performers have the highest throughput and reliability while contributing to their organizations' profitability, productivity, and market share goals. You'll also find out what the industry is doing in things like security and containers, and a deeper look into continuous delivery and lean management practices, and how these relate IT performance and quality. You’ll love the results. This talk is great for executives and business directors because it will help you understand the value proposition of DevOps and how to achieve the best outcomes. This talk is also great for practitioners because we help you understand the practices that predict high IT performance – and arm you with the data you need to make your case to the executive suite for DevOps and resources."
