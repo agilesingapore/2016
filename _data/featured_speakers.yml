@@ -47,7 +47,8 @@
   topics:
     - title: "Go Faster: Remove the Inhibitors to Innovation"
       abstract: "A common theme runs through conferences, whether focused on MicroServices, DevOps, Lean Startup, or a myriad of other popular topics: Enabling an organization to Go Faster . I explore the need to go faster (which is hardly new), and three areas inhibitors arise: Technology choices, staid business Processes, and traditional Organization structures and roles. For each, I cite personal experiences in overcoming each."
-
+    - title: "Challenges in Implementing MicroServices"
+      abstract: "MicroService Architectures has debuted on the ThoughtWorks Technology Radar as the first technology they address, and with strong recommendations to immediately experiment. In this talk, we discuss the challenges we have faced at three different companies in implementing MicroServices (successfully!), and the different ways we addressed the challenges."
 
 - name: "Gerard Meszaros"
   lead: "Author of xUnit Test Patterns: Refactoring Test Code"
