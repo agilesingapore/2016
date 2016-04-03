@@ -160,7 +160,7 @@
     <p>I am an author, speaker… essentially a loud-mouthed pundit on the topic of software development. I work for ThoughtWorks, a software delivery company, where I have the exceedingly inappropriate title of “Chief Scientist”. I’ve written half-a-dozen books on software development, including Refactoring and Patterns of Enterprise Application Architecture. I write regularly about software development on martinfowler.com
     </p>
   topics:
-    - title: "Software Design in the 21st Century"
+    - title: "Software Design in the 21st Century (Keynote)"
       abstract: "In the last decade or so we've seen a number of new ideas added to the mix to help us effectively design our software. Patterns help us capture the solutions and rationale for using them. Refactoring allows us to alter the design of a system after the code is written. Agile methods, in particular Extreme Programming, give us a highly iterative and evolutionary approach which is particularly well suited to changing requirements and environments. Martin Fowler has been a leading voice in these techniques and will give a suite of short talks featuring various aspects about his recent thinking about how these and other developments affect our software development."
 
 - name: "Mary and Tom Poppendieck"
@@ -180,8 +180,16 @@
     </p>
 
   topics:
-    - title: "The Future has Arrived"
+    - title: "The Future has Arrived (Keynote)"
       abstract: "2020 used to be far in the future. Today it’s four years away. We no longer need to guess what breakthroughs await us in that magic year, the future is hiding in plain sight. The Cloud, Big Data, the Internet of Things, Virtual Reality. The question is not what the technologies of 2020 will be – that is rapidly coming into focus. The real question is: What’s important, what isn’t, and why? Should you focus on Continuous Delivery? DevOps? How do you get from where you are now to where you need to be? How do you scale? How do you keep your systems reliable and secure? This talk will discuss how software engineering is changed by the emerging digital technologies."
+    - title: "Friction"
+      abstract: >
+        <p>You have great software engineers. They work on autonomous product teams that deliver frequently. The products are doing well. But -- there is always a But. Things could be better. Something is frustrating team members or disappointing customers or slowing things down. What is it?
+        </p>
+        <p>Friction. No matter how well things are going, there will always be friction. Consumers experience friction when using your product. Friction delays a team's response to a product request. Friction makes the code difficult to change. Differing expectations create friction among team members. Competing goals create friction between teams.
+        </p>
+        <p>This talk looks at the most common sources of friction in software systems, and present patterns for reducing friction that can be used again -- and again -- to identify and address points of friction on an on-going basis.
+        </p>
 
 - name: "Michael Feathers"
   company: "R7K Research & Conveyance"
