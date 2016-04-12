@@ -1,0 +1,17 @@
+
+.workshops {
+  background: #fff;
+  @include rhythm-padding(2);
+  padding-bottom: 0;
+}
+
+.workshop {
+  margin-bottom: 2em;
+
+  .photo {
+    max-width: 200px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
