@@ -8761,37 +8761,41 @@ h3 {
 .about hr {
   border-color: #cbd0d2;
 }
+/* line 11, ../sass/_about.scss */
+.about h2 .fa {
+  padding-left: 0.3em;
+}
 
-/* line 12, ../sass/_about.scss */
+/* line 18, ../sass/_about.scss */
 .organisers {
   background: #fff;
   padding-top: 3em;
   padding-bottom: 3em;
 }
-/* line 16, ../sass/_about.scss */
+/* line 22, ../sass/_about.scss */
 .organisers ul, .organisers li {
   list-style: none;
   padding: 0;
 }
-/* line 21, ../sass/_about.scss */
+/* line 27, ../sass/_about.scss */
 .organisers li {
   text-align: center;
 }
-/* line 24, ../sass/_about.scss */
+/* line 30, ../sass/_about.scss */
 .organisers .organiser-photo {
   margin: 0 0 10px 0;
 }
-/* line 26, ../sass/_about.scss */
+/* line 32, ../sass/_about.scss */
 .organisers .organiser-photo img {
   width: 50%;
   height: inherit;
   border-radius: 50%;
 }
-/* line 32, ../sass/_about.scss */
+/* line 38, ../sass/_about.scss */
 .organisers .organiser-bio {
   font-size: 0.9em;
 }
-/* line 35, ../sass/_about.scss */
+/* line 41, ../sass/_about.scss */
 .organisers .organiser-bio .speaker-name {
   font-weight: 500;
   font-size: 1.25em;

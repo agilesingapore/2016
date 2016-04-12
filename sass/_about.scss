@@ -6,6 +6,12 @@
   hr {
     border-color: lighten($agilesg-lgrey, 40%);
   }
+
+  h2 {
+    .fa {
+      padding-left: 0.3em;
+    }
+  }
 }
 
 
