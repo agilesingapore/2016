@@ -84,13 +84,6 @@
         <p>Gojko presents emerging trends in the testing tools space and predicts how you'll be using tools differently ten years from now. If your organisation is suffering from the high cost of testing, come and learn about tools and trends that may help you outrun the competition.
         </p>
 
-- name: "Jeff Gothelf"
-  company: "Gothelf Corp"
-  lead: "Author of Lean UX & Sense And Respond"
-  photo_name: jeff
-  url: "http://www.jeffgothelf.com"
-  keynote: false
-
 - name: "Jon Chan"
   company: "Stack Overflow"
   lead: "Marketing Engineering & Evangelism at Stack Overflow, Founder of Bento"
