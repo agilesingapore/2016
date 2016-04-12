@@ -83,6 +83,8 @@
         </p>
         <p>Gojko presents emerging trends in the testing tools space and predicts how you'll be using tools differently ten years from now. If your organisation is suffering from the high cost of testing, come and learn about tools and trends that may help you outrun the competition.
         </p>
+    - title: "Turning continuous delivery into competitive business advantage"
+      abstract: "Continuous delivery is not just a technical tool. Regardless of whether we want it or not, it creates a fundamental change to the world around software teams, including marketing and customer interaction. Ignoring those changes is dangerous, because it can lead to conflicts with the rest of the company. Embracing those changes and exploiting them opens up new business opportunities. By recognising and taking charge in this transformation, software teams can become much more valuable to the companies around them. This talk will focus on how to unlock all that potential, and turn the fact that your teams can deliver frequently into an engine that will help you outrun your competition. This is a talk for tech and business people."
 
 - name: "Jon Chan"
   company: "Stack Overflow"
