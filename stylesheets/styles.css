@@ -8966,6 +8966,11 @@ h3 {
 .workshop-detail blockquote {
   font-size: 0.9em;
 }
+/* line 47, ../sass/_workshops.scss */
+.workshop-detail .controls {
+  text-align: center;
+  padding-top: 2em;
+}
 
 /* line 1, ../sass/_tickets.scss */
 .tickets {
