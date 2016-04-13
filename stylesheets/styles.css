@@ -8762,44 +8762,50 @@ h3 {
   border-color: #cbd0d2;
 }
 /* line 11, ../sass/_about.scss */
-.about h2 .fa {
-  padding-left: 0.3em;
+.about h2 a {
+  color: #343434;
+  text-decoration: none;
 }
 /* line 16, ../sass/_about.scss */
+.about h2 .fa {
+  padding-left: 0.3em;
+  color: #EC1D24;
+}
+/* line 22, ../sass/_about.scss */
 .about h3 {
   text-align: left;
 }
 
-/* line 22, ../sass/_about.scss */
+/* line 28, ../sass/_about.scss */
 .organisers {
   background: #fff;
   padding-top: 3em;
   padding-bottom: 3em;
 }
-/* line 26, ../sass/_about.scss */
+/* line 32, ../sass/_about.scss */
 .organisers ul, .organisers li {
   list-style: none;
   padding: 0;
 }
-/* line 31, ../sass/_about.scss */
+/* line 37, ../sass/_about.scss */
 .organisers li {
   text-align: center;
 }
-/* line 34, ../sass/_about.scss */
+/* line 40, ../sass/_about.scss */
 .organisers .organiser-photo {
   margin: 0 0 10px 0;
 }
-/* line 36, ../sass/_about.scss */
+/* line 42, ../sass/_about.scss */
 .organisers .organiser-photo img {
   width: 50%;
   height: inherit;
   border-radius: 50%;
 }
-/* line 42, ../sass/_about.scss */
+/* line 48, ../sass/_about.scss */
 .organisers .organiser-bio {
   font-size: 0.9em;
 }
-/* line 45, ../sass/_about.scss */
+/* line 51, ../sass/_about.scss */
 .organisers .organiser-bio .speaker-name {
   font-weight: 500;
   font-size: 1.25em;

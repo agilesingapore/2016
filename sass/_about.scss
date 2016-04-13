@@ -8,8 +8,14 @@
   }
 
   h2 {
+    a {
+      color: $agilesg-dgrey;
+      text-decoration: none;
+    }
+
     .fa {
       padding-left: 0.3em;
+      color: $agilesg-red;
     }
   }
 
