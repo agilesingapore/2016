@@ -8944,6 +8944,24 @@ h3 {
   border-radius: 50%;
 }
 
+/* line 25, ../sass/_workshops.scss */
+.workshop-summary {
+  text-align: left;
+}
+/* line 28, ../sass/_workshops.scss */
+.workshop-summary h1 {
+  text-align: left;
+}
+/* line 32, ../sass/_workshops.scss */
+.workshop-summary .date, .workshop-summary .trainer-name {
+  font-weight: bold;
+}
+/* line 36, ../sass/_workshops.scss */
+.workshop-summary .photo {
+  max-width: 60px;
+  border-radius: 50%;
+}
+
 /* line 1, ../sass/_tickets.scss */
 .tickets {
   background: #fff;

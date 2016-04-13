@@ -19,6 +19,22 @@
   .photo {
     max-width: 60px;
     border-radius: 50%;
-    
+  }
+}
+
+.workshop-summary {
+  text-align: left;
+  
+  h1 {
+    text-align: left;
+  }
+
+  .date, .trainer-name {
+    font-weight: bold;
+  }
+
+  .photo {
+    max-width: 60px;
+    border-radius: 50%;
   }
 }
