@@ -8,10 +8,17 @@
 .workshop {
   margin-bottom: 2em;
 
+  h2 {
+    text-align: left;
+  }
+
+  .date, .trainer-name {
+    font-weight: bold;
+  }
+
   .photo {
-    max-width: 200px;
+    max-width: 60px;
     border-radius: 50%;
-    margin-left: auto;
-    margin-right: auto;
+    
   }
 }
