@@ -8962,6 +8962,11 @@ h3 {
   border-radius: 50%;
 }
 
+/* line 43, ../sass/_workshops.scss */
+.workshop-detail blockquote {
+  font-size: 0.9em;
+}
+
 /* line 1, ../sass/_tickets.scss */
 .tickets {
   background: #fff;

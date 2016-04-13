@@ -24,7 +24,7 @@
 
 .workshop-summary {
   text-align: left;
-  
+
   h1 {
     text-align: left;
   }
@@ -36,5 +36,11 @@
   .photo {
     max-width: 60px;
     border-radius: 50%;
+  }
+}
+
+.workshop-detail {
+  blockquote {
+    font-size: 0.9em;
   }
 }
