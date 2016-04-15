@@ -278,6 +278,14 @@
   topics:
     - title: "Enabling Continuous Delivery with Database Practices"
       abstract: "To get full benefits of continuous Delivery, all components of the software being developed need to be delivered at the same pace. Components of the software development like databases need different techniques to be managed . Techniques that that would have to cater to changes being deployed to the database along with code and at the same time be enable the database to handle multiple versions of the application software."
+    - title: "NoSQL Databases: Its not a free lunch"
+      abstract: >
+        <p>The world of data is changing and becoming yet more important as data has become a significant competitive advantage. We are collecting increasing amounts of data, but wanting to process it in decreasing time. This demands new techniques in data storage, enabling the raise of NoSQL technologies. In this talk Pramod will talk about NoSQL in two phases.
+        </p>
+        <p>In the first phase, the talk will focus on core concepts needed to understand NoSQL databases, NoSQL data models, in particular the role of aggregates and the consequences of schema-less models, options for distribution and the consequences of maintaining consistency.
+        </p>
+        <p>In the second phase the talk will focus on implementation details and look at some representative databases so you can get a feel for how real NoSQL databases work using Riak, MongoDB, Cassandra, and Neo4J and also look at how to implement evolutionary design with schema migration -- an essential requirement even with schema-less databases. Pramod will also help you to understand how to pick the right database for the requirements.
+        </p>
 
 - name: "Woody Zuill"
   company: "Woody Zuill"
