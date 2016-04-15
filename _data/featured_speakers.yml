@@ -54,6 +54,11 @@
   photo_name: danielle
   url: "https://www.linkedin.com/in/djabin"
   keynote: false
+  bio: "Danielle Jabin is an Agile Coach at Spotify. Prior to that, she was a Data Engineer at Spotify focused on building infrastructure for processing and analyzing big data. She graduated from the University of Pennsylvania's M&T Program with a Bachelor's degree in Computer Science from the engineering school and a Bachelor's degree from The Wharton School with concentrations in Statistics and Real Estate. She is originally from San Diego, California but now lives in Stockholm, Sweden for the weather."
+  topics:
+    - title: "Making Better Mistakes Tomorrow"
+      abstract: >
+        If we’re pushing ourselves, innovating, and trying new things, we'll inevitably make some mistakes on our path to a brighter future. Knowing this, how can we make sure that when we do make mistakes that they are moving us in the right direction? In this talk, I'll share some strategies for making "better" mistakes along with specific examples of tactics and techniques we use at Spotify to help us learn better and faster.
 
 - name: "Fred George"
   lead: "Early Advocate of MicroServices and Managerless Teams"
