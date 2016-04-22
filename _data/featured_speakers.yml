@@ -119,13 +119,18 @@
       abstract: "At Stack Overflow, we are a remote-first company. That means no matter where you are in the world, if you are a great developer, we want to make sure you’re treated just like you’re in our headquarters in New York. How do you build agile teams when most people are remote? We take this to an extreme: get my first-hand account of what it’s like to work full-time as an engineer at Stack Overflow traveling to 22 cities in 7 countries in three months. You’ll learn what it means to build a truly remote culture, what tools we use to make it possible, and how we do standups, iteration, and communication in a truly international engineering team."
 
 
-
 - name: "Joshua Kerievsky"
   company: "Industrial Logic"
   lead: "Author of Refactoring to Patterns and creator of Modern Agile"
   photo_name: joshua
   url: "https://www.linkedin.com/in/joshuakerievsky"
   keynote: true
+  bio: "Joshua is a globally recognized thought leader in Agile and Lean software development. He is an entrepreneur, author and programmer passionate about excellent software and discovering better, faster and safer ways to produce it. As the founder and visionary leader of Industrial Logic, Joshua is currently defining what it means to practice modern agility. Modern agile practitioners work to Make People Awesome, Make Safety A Prerequisite, Experiment & Learn Rapidly and Deliver Value Continuously. Joshua is a sought-after international speaker, author of the best-selling, Jolt Cola-award winning book, Refactoring to Patterns, and a guru-level practitioner of Lean/Agile methods.  His pioneering work in Agile processes has helped popularize Agile Readiness Assessments, Chartering, Storytest-Driven Development and Iterative Usability, many of which are now standard in Agile/Lean processes. He is an active blogger on forward-thinking, modern software topics with an edge."
+  topics:
+    - title: "Modern Agile (Keynote)"
+      abstract: "Pending description"
+    - title: "The Art of Refactoring"
+      abstract: "Code that is difficult to understand, hard to modify and challenging to extend is hazardous to developers, users and organizations. Refactoring, or improving the design of existing code, is one of our greatest defenses against such code. In this talk, I’ll discuss the value of refactoring, how we practice it safely, when and why we refactor, the power of refactoring tools and when we avoid refactoring.  I’ll be using several real-world examples of refactoring and sharing what I’ve learned about this important practice of the last 20 years."
 
 - name: "Justin Searls"
   company: "Test Double"
