@@ -8935,48 +8935,53 @@ h3 {
   text-align: left;
 }
 /* line 15, ../sass/_workshops.scss */
+.workshop .subtitle {
+  margin-top: -0.8em;
+  font-size: 0.9em;
+}
+/* line 20, ../sass/_workshops.scss */
 .workshop .date, .workshop .trainer-name {
   font-weight: bold;
 }
-/* line 19, ../sass/_workshops.scss */
+/* line 24, ../sass/_workshops.scss */
 .workshop .photo {
   max-width: 60px;
   border-radius: 50%;
 }
 
-/* line 25, ../sass/_workshops.scss */
+/* line 30, ../sass/_workshops.scss */
 .workshop-summary {
   text-align: left;
 }
-/* line 28, ../sass/_workshops.scss */
+/* line 33, ../sass/_workshops.scss */
 .workshop-summary .subtitle {
   margin-top: -0.8em;
   font-size: 1.4em;
 }
-/* line 33, ../sass/_workshops.scss */
+/* line 38, ../sass/_workshops.scss */
 .workshop-summary h1 {
   text-align: left;
 }
-/* line 37, ../sass/_workshops.scss */
+/* line 42, ../sass/_workshops.scss */
 .workshop-summary .date, .workshop-summary .trainer-name {
   font-weight: bold;
 }
-/* line 41, ../sass/_workshops.scss */
+/* line 46, ../sass/_workshops.scss */
 .workshop-summary .photo {
   max-width: 60px;
   border-radius: 50%;
 }
 
-/* line 48, ../sass/_workshops.scss */
+/* line 53, ../sass/_workshops.scss */
 .workshop-detail blockquote {
   font-weight: bold;
   font-size: 0.95em;
 }
-/* line 53, ../sass/_workshops.scss */
+/* line 58, ../sass/_workshops.scss */
 .workshop-detail img {
   max-width: 60%;
 }
-/* line 56, ../sass/_workshops.scss */
+/* line 61, ../sass/_workshops.scss */
 .workshop-detail .controls {
   text-align: center;
   padding-top: 2em;
