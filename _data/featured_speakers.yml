@@ -78,7 +78,12 @@
   photo_name: becky
   url: "https://www.linkedin.com/in/becky-winant-143129"
   keynote: false
-
+  bio: "I have been a software programmer, marketing representative, business owner, consultant, seminar designer and leader, architect and facilitator. Over the years I have been drawn to places and people with an interesting edge - where the ideas are compelling and invigorating. I came by way of being an art student who discovered the principles of design alive in computing and software. A path through software development also led me through a decade of studying Satir models and Weinberg principles that sum up my work to date: Technology is easy to understand compared to the people who build it, want it, fund it and use it. Having been through many years of introducing models, eliciting requirements, and crafting new processes, I continue to learn how people and organizations resist, accept, reject or even become comfortable with change. My focus is finding opportunities and options to achieve stated goals."
+  topics:
+    - title: "How Collaboration works or Doesn't"
+      abstract: "Agile meetings do not always go smoothly. Especially when you work in a geographically distributed team or get moved from one team to another. How can you discover what might be going on when things go awry? This session will have a brief simulation of a meeting. Three volunteers will play agile roles with typical challenges we experience. As a group we will share observations about the interactions, and what we thought we understood, but may not have. This session introduces the Satir Interaction Model and a broader understanding of how we might correct mis-interpreted behavior and commenting."
+    - title: "Moving Culture Change"
+      abstract: "Agile transformation means introducing change. If you work for an organization that hasn't changed in a while, introducing new approaches can feel like a lot of work and even more pain. This applies to any 'not fully' or 'not quite agile' organizations. Large IT groups often fall in this area, but it can happen anywhere when change is scary or seen as a high risk in the culture. This session introduces the Satir Change Model of human behavior with the addition of choice points and ways you can intervene. Change can trigger chaos, yet choice offers opportunity. Where could you look for new options? How can we guard against reverting to old ways and move to new learning and practice?"
 
 - name: "Danielle Jabin"
   lead: "Spotify engineer turned Agile Coach"
