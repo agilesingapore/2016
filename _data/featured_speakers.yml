@@ -72,6 +72,14 @@
         <p>LeSS is different with other scaling frameworks in the sense that it provides a very minimalistic framework that enables empiricism on a large-scale which enables the teams and organization to inspect-adapt their implementation based on their experiences and context. LeSS is based on the idea that providing too much rules, roles, artifacts and asking the organization to tailor it down is a fundamentally flawed approach and instead scaling frameworks should be minimalistic and allowing organizations to fill them in.
         </p>
 
+- name: "Becky Winant"
+  lead: "Helping people uncover new options that meet their needs"
+  company: "Transformational Imaging"
+  photo_name: becky
+  url: "https://www.linkedin.com/in/becky-winant-143129"
+  keynote: false
+
+
 - name: "Danielle Jabin"
   lead: "Spotify engineer turned Agile Coach"
   company: "Spotify"
