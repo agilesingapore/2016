@@ -37,12 +37,22 @@
   .featured-speakers {
     li {
       text-align: left;
+
     }
     .speaker-photo {
       img {
         width: 30%;
         float:left;
       }
+    }
+    .speaker-lead {
+      text-align:left;
+      float:left;
+      margin-left:10px;
+      width:64%;
+    }
+    .btn {
+      margin-left:10px;
     }
   }
 }
