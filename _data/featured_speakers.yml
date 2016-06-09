@@ -27,6 +27,41 @@
   photo_name: arlo
   url: "https://www.linkedin.com/in/arlobelshee"
   keynote: false
+  bio: >
+    <p>Arlo helps you change cultures in large organizations with large codebases. He transitions hundreds or thousands of people at a time to full technical and cultural prowess in a way that sticks.
+    </p>
+    <p>More importantly, Arlo gives your company the ability to change its own culture. He seeks to be the last consultant you will ever need to hire. After 6 months, you should be able to adapt your culture, practices, and company structures to meet novel challenges, each in a matter of days.
+    </p>
+    <p>Arlo tries stuff in the real world. Some of it works. Some doesn't. Then he talks about what he tried. He knows the theory, but only cares about the practical outcomes.
+    </p>
+    <p>Arlo is tech-first. He loves fixing Legacy Code. He shows developers new ways to read and modify code which are both faster and safer than letting the debt lie. Every day after this shift, your short-term and long-term incentives are aligned. The fastest short-term approach also delivers long-term code health.
+    </p>
+    <p>He's also got this thing with names. His innovations include Naked Planning, Promiscuous Pairing, and Drunken Estimation. Oh, and he's Bloody Stupid from time to time.
+    </p>
+    <p>For a good time, chat him up in a hall, a bar, or online.</p>
+  topics:
+  - title: "#BugsZero"
+    abstract: >
+      <p>Most people see bugs as a fact of life in software development. Just like city-wide fires used to be taken as a fact of life in urban living. The key to no longer burning cities to the ground was fire prevention, not improved fire fighting. I've applied similar thinking with dozens of teams and shifted to a world in which bugs occur at the same frequency as city-wide fires.
+      </p>
+      <p>Let's imagine this world for a moment. These teams don't have:
+      </p>
+
+        <p>* a bug database. They just use a section of the whiteboard.
+        <br/>* lots of testers.
+        <br/>* large suites of automated tests. Lots of their code is untested and known bug-free (yes, that is possible).
+        <br/>* bug triage meetings.
+        <br/>* large customer support teams or devs handling escalations.
+        <br/>* problems in operations or large ops teams.
+        <br/>* story "done-done" criteria or delays in shipping.
+        <br/>* complex trade-offs in prioritizing stories against each other.
+        <br/>* lost revenue due to market embarrassment.
+        </p>
+      
+      <p>It turns out that most software development activities arise from one source: bugs. They are failure demand, and thus 100% waste. Teams that stop writing bugs get to stop doing these rituals. They spend a lot more time on value delivery and reduce costs across the organization.
+      </p>
+      <p>In this talk, I'll show how these teams have stopped writing bugs. We'll discuss the source of bugs and I'll show you how to code differently so that bugs just...don't happen.
+      </p>
 
 - name: "Amy Jo Kim"
   lead: "Social game designer, community architect and startup coach"
