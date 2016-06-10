@@ -28,7 +28,7 @@ bodyClass: home
   <div class="container">
     <div class="col-md-4 col-md-offset-2 text-center">
       <i class="fa fa-ticket fa-2x"></i>
-      <h2>25 tickets sold</h2>
+      <h2>29 tickets sold</h2>
 
       <div id="carousel-quote" class="carousel slide" data-ride="carousel" data-interval="12000">
         <div class="carousel-inner" role="listbox">
@@ -60,7 +60,7 @@ bodyClass: home
     </div>
     <div class="col-md-4 text-center">
       <i class="fa fa-bullhorn fa-2x"></i>
-      <h2>3 workshops and 20+ confirmed topics</h2>
+      <h2>Calling for workshop venue sponsors</h2>
       <p id="elapsed-time"></p>
 
       <a class="btn button reverse" href="/updates" >Conference Updates</a>
@@ -76,7 +76,7 @@ bodyClass: home
           {% for speaker in site.data.featured_speakers %}
             {% if speaker.keynote == true %}
 
-              {% include speaker.html col-class="col-sm-4" %}
+              {% include speaker.html col-class="col-sm-3" %}
 
             {% endif %}
           {% endfor %}
@@ -103,5 +103,5 @@ bodyClass: home
 
 <script src="/javascripts/moment.min.js"></script>
 <script>
-  document.getElementById("elapsed-time").innerHTML = moment("20160425", "YYYYMMDD").fromNow();
+  document.getElementById("elapsed-time").innerHTML = moment("20160609", "YYYYMMDD").fromNow();
 </script>

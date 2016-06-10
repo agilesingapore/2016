@@ -20,6 +20,7 @@
       border-radius: 50%;
     }
   }
+
   .speaker-lead {
     font-size: 0.85em;
     height: 6.3em;
@@ -28,6 +29,30 @@
       font-weight: 500;
       font-size: 1.2em;
       color: $agilesg-dgrey;
+    }
+  }
+}
+
+.page-speakers-landing {
+  .featured-speakers {
+    li {
+      text-align: left;
+
+    }
+    .speaker-photo {
+      img {
+        width: 30%;
+        float:left;
+      }
+    }
+    .speaker-lead {
+      text-align:left;
+      float:left;
+      margin-left:10px;
+      width:64%;
+    }
+    .btn {
+      margin-left:10px;
     }
   }
 }
