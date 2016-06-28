@@ -9200,3 +9200,21 @@ h3 {
 .themes {
   background: #fff;
 }
+
+/* line 2, ../sass/_venue.scss */
+.venue .venue-img {
+  margin-bottom: 2em;
+}
+/* line 6, ../sass/_venue.scss */
+.venue .venue-address {
+  font-size: 1.6rem;
+}
+
+/* line 11, ../sass/_venue.scss */
+.accomodation {
+  background: #fff;
+}
+/* line 14, ../sass/_venue.scss */
+.accomodation h2 {
+  margin-bottom: 1em;
+}
