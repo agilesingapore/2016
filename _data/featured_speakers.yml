@@ -57,7 +57,7 @@
         <br/>* complex trade-offs in prioritizing stories against each other.
         <br/>* lost revenue due to market embarrassment.
         </p>
-      
+
       <p>It turns out that most software development activities arise from one source: bugs. They are failure demand, and thus 100% waste. Teams that stop writing bugs get to stop doing these rituals. They spend a lot more time on value delivery and reduce costs across the organization.
       </p>
       <p>In this talk, I'll show how these teams have stopped writing bugs. We'll discuss the source of bugs and I'll show you how to code differently so that bugs just...don't happen.
@@ -402,8 +402,12 @@
     - title: "Mob Programming: A Whole Team Approach"
       abstract: >
         <p>Mob Programming is a development practice where the whole team works on the same thing, at the same time, in the same space, and on the same computer. It is a whole-team approach to doing all the work the team does including designing, coding, testing, and working with the customers, users and other stakeholders. This is an evolutionary step beyond pair programming and accentuates face-to-face communication, team alignment, collaboration, and self-organizing team concepts of the Agile approach to software development.
+        </p><p>Mob Programming can be a highly effective approach to software development. There are numerous teams doing Mob Programming all over the world, including distributed teams, and there has been a great deal of positive reports of success. Please join me as I share how the concept got started, the benefits, techniques we use, and some of the problems we've faced.
         </p>
-        <p>Mob Programming can be a highly effective approach to software development. There are numerous teams doing Mob Programming all over the world, including distributed teams, and there has been a great deal of positive reports of success. Please join me as I share how the concept got started, the benefits, techniques we use, and some of the problems we've faced.
-        </p>
-        <p>You will learn enough to try this out on your own with your team or with some friends. Along the way we'll answer a lot of the questions you might have including: How do we set things up? Who should be part of the team? What is the right-size for a team? How can we work together with just one computer? Why would we want to do this? Is it productive?
+    - title: "Continuous Discovery: The Power of Pure Agile"
+      abstract: >
+        <p>The strength of Agile lies in the simplicity and clarity of the Values and Principles expressed in the Agile Manifesto. It can empower the people doing software development in any organization, and enable us to make rapid strides to the "land of better".
+        </p><p>Software development is an activity of discovery. We must take action to reveal the reality of the problem at hand, the elements of the solution, and to reveal the work that is needed to design and create the software required. This is the process of discovery.
+        </p><p>As leaders, activators, and influencers of change in the companies we work with, it's up to us to understand the philosophy of Agile and how it embraces and empowers the process of discovery.
+        </p>I'll share my thinking about "Pure Agile", and how I use it in my daily work to enhance Continuous Discovery, Learning, and Growth in the teams and companies I work with. Let's explore together and discover the path to the future we want to create.
         </p>
