@@ -9236,6 +9236,6 @@ h3 {
   background: #fff;
 }
 /* line 14, ../sass/_venue.scss */
-.accomodation h2 {
-  margin-bottom: 1em;
+.accomodation .header {
+  margin-bottom: 2em;
 }
