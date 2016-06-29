@@ -52,7 +52,10 @@
       width:64%;
     }
     .btn {
-      margin-left:10px;
+      float:left;
+       /* @include breakpoint(screen-xs) {
+          margin-left:118px;
+        }*/
     }
   }
 }
