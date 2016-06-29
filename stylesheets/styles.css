@@ -8165,16 +8165,24 @@ h3 {
 }
 
 /* line 116, ../sass/_global.scss */
+.updates .icon {
+  margin-bottom: 0.2em;
+}
+/* line 119, ../sass/_global.scss */
 .updates .news-summary {
-  font-size: 1.45em;
+  font-size: 1.2em;
   line-height: 1.2em;
   font-weight: lighter;
   margin-bottom: 0;
 }
-/* line 122, ../sass/_global.scss */
+/* line 125, ../sass/_global.scss */
 .updates .news-date {
-  font-size: 1em;
+  font-size: 0.8em;
   margin-bottom: 1.2em;
+}
+/* line 129, ../sass/_global.scss */
+.updates .btn {
+  margin-top: 0.5em;
 }
 
 /* line 1, ../sass/_header.scss */

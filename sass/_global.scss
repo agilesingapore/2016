@@ -113,14 +113,20 @@ h3 {
 }
 
 .updates {
+  .icon {
+    margin-bottom: 0.2em;
+  }
   .news-summary {
-    font-size: 1.45em;
+    font-size: 1.2em;
     line-height: 1.2em;
     font-weight: lighter;
     margin-bottom: 0;
   }
   .news-date {
-    font-size: 1em;
+    font-size: 0.8em;
     margin-bottom: 1.2em;
+  }
+  .btn {
+    margin-top: 0.5em;
   }
 }
