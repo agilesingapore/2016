@@ -9545,13 +9545,10 @@ h3 {
 }
 /* line 54, ../sass/_speakers.scss */
 .page-speakers-landing .featured-speakers .btn {
-  margin-left: 10px;
-}
-@media (max-width: 480px) {
-  /* line 54, ../sass/_speakers.scss */
-  .page-speakers-landing .featured-speakers .btn {
-    margin-left: 118px;
-  }
+  float: left;
+  /* @include breakpoint(screen-xs) {
+     margin-left:118px;
+   }*/
 }
 
 /* line 63, ../sass/_speakers.scss */
