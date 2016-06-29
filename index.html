@@ -58,10 +58,14 @@ bodyClass: home
 
 
     </div>
-    <div class="col-md-4 text-center">
+    <div class="col-md-4 text-center updates">
       <i class="fa fa-bullhorn fa-2x"></i>
-      <h2>Workshop subsidy for Singaporeans/PR</h2>
-      <p id="elapsed-time"></p>
+
+      <p class="news-summary">Workshop subsidy for Singaporeans and PR</p>
+      <p id="elapsed-time-latest" class="news-date"></p>
+
+      <p class="news-summary">Call for workshop venue sponsors</p>
+      <p id="elapsed-time-older" class="news-date"></p>
 
       <a class="btn button reverse" href="/updates" >Conference Updates</a>
     </div>
@@ -103,5 +107,6 @@ bodyClass: home
 
 <script src="/javascripts/moment.min.js"></script>
 <script>
-  document.getElementById("elapsed-time").innerHTML = moment("20160627", "YYYYMMDD").fromNow();
+  document.getElementById("elapsed-time-latest").innerHTML = moment("20160627", "YYYYMMDD").fromNow();
+  document.getElementById("elapsed-time-older").innerHTML = moment("20160609", "YYYYMMDD").fromNow();
 </script>

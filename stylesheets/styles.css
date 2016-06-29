@@ -8164,6 +8164,19 @@ h3 {
   text-align: center;
 }
 
+/* line 116, ../sass/_global.scss */
+.updates .news-summary {
+  font-size: 1.45em;
+  line-height: 1.2em;
+  font-weight: lighter;
+  margin-bottom: 0;
+}
+/* line 122, ../sass/_global.scss */
+.updates .news-date {
+  font-size: 1em;
+  margin-bottom: 1.2em;
+}
+
 /* line 1, ../sass/_header.scss */
 .navbar {
   margin-bottom: 0;
