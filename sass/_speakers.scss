@@ -53,6 +53,9 @@
     }
     .btn {
       margin-left:10px;
+        @include breakpoint(screen-xs) {
+          margin-left:118px;
+        }
     }
   }
 }
