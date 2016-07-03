@@ -11,6 +11,11 @@
   li {
     text-align: center;
     min-height: 219px;
+    margin-bottom: 2em;
+
+    @include breakpoint(screen-sm) {
+      margin-bottom: 0;
+    }
   }
   .speaker-photo {
     margin: 0 0 10px 0;
@@ -23,7 +28,6 @@
 
   .speaker-lead {
     font-size: 0.85em;
-    height: 6.3em;
 
     .speaker-name {
       font-weight: 500;
@@ -58,10 +62,6 @@
         }*/
     }
   }
-}
-
-.see-all-speakers {
-  margin-top: 2em;
 }
 
 @media (min-width: 480px) and (max-width: 767px) {

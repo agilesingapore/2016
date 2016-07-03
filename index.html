@@ -83,13 +83,13 @@ bodyClass: home
           {% for speaker in site.data.featured_speakers %}
             {% if speaker.keynote == true %}
 
-              {% include speaker.html col-class="col-sm-3" %}
+              {% include speaker.html col-class="speaker col-sm-6 col-md-3" %}
 
             {% endif %}
           {% endfor %}
         </ul>
     </div>
-    <div class="col-md-4 col-md-offset-4 text-center see-all-speakers">
+    <div class="col-sm-12 text-center see-all-speakers">
       <a class="btn button reverse" href="/speakers.html">See all speakers</a>
     </div>
   </div>

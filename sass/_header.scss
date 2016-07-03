@@ -8,10 +8,18 @@
   padding: 10px 15px;
 }
 
+.navbar-header {
+  @include breakpoint(screen-sm) {
+    float: none;
+  }
+  @include breakpoint(screen-md) {
+    float: left;
+  }
+}
+
 .navbar-nav {
   display: none;
-
-  @include breakpoint(screen-sm) {
+  @include breakpoint(screen-md) {
     display: block;
   }
   .btn-default {
@@ -59,6 +67,9 @@
 .navbar-toggle {
   border: none;
   @include breakpoint(screen-sm) {
+    display: block;
+  }
+  @include breakpoint(screen-md) {
     display: none;
   }
   .icon-bar {
