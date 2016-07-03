@@ -35,13 +35,21 @@
       color: $agilesg-dgrey;
     }
   }
+  button {
+    display: block;
+  }
 }
 
 .page-speakers-landing {
   .featured-speakers {
     li {
       text-align: left;
-
+      margin-bottom: 2em;
+      min-height: inherit;
+      @include breakpoint (screen-sm) {
+        min-height: 180px;
+        margin-bottom: 0;
+      }
     }
     .speaker-photo {
       img {
@@ -56,10 +64,7 @@
       width:64%;
     }
     .btn {
-      float:left;
-       /* @include breakpoint(screen-xs) {
-          margin-left:118px;
-        }*/
+      margin: 10px 0 0 0;
     }
   }
 }

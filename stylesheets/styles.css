@@ -7887,29 +7887,36 @@ h3 {
       font-weight: 500;
       font-size: 1.2em;
       color: #343434; }
+  /* line 38, ../sass/_speakers.scss */
+  .featured-speakers button {
+    display: block; }
 
-/* line 42, ../sass/_speakers.scss */
+/* line 45, ../sass/_speakers.scss */
 .page-speakers-landing .featured-speakers li {
-  text-align: left; }
-/* line 47, ../sass/_speakers.scss */
+  text-align: left;
+  margin-bottom: 2em;
+  min-height: inherit; }
+  @media (min-width: 768px) {
+    /* line 45, ../sass/_speakers.scss */
+    .page-speakers-landing .featured-speakers li {
+      min-height: 180px;
+      margin-bottom: 0; } }
+/* line 55, ../sass/_speakers.scss */
 .page-speakers-landing .featured-speakers .speaker-photo img {
   width: 30%;
   float: left; }
-/* line 52, ../sass/_speakers.scss */
+/* line 60, ../sass/_speakers.scss */
 .page-speakers-landing .featured-speakers .speaker-lead {
   text-align: left;
   float: left;
   margin-left: 10px;
   width: 64%; }
-/* line 58, ../sass/_speakers.scss */
+/* line 66, ../sass/_speakers.scss */
 .page-speakers-landing .featured-speakers .btn {
-  float: left;
-  /* @include breakpoint(screen-xs) {
-     margin-left:118px;
-   }*/ }
+  margin: 10px 0 0 0; }
 
 @media (min-width: 480px) and (max-width: 767px) {
-  /* line 68, ../sass/_speakers.scss */
+  /* line 73, ../sass/_speakers.scss */
   .featured-speakers .col-xsm-6 {
     width: 49%;
     display: inline-block;
