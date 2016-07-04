@@ -62,6 +62,16 @@
       </p>
       <p>In this talk, I'll show how these teams have stopped writing bugs. We'll discuss the source of bugs and I'll show you how to code differently so that bugs just...don't happen.
       </p>
+  - title: "Agile Engineering Fluency"
+    abstract: >
+      <p>Every team is different. But there are patterns.
+      </p>
+      <p>Do you want to ship your product 50 times per day? What about zero-bug development at low cost? Or live without technical debt? Or learn development skills 25 times faster than industry average? Or base product decisions on real customer data and run low-cost experiments?
+      </p>
+      <p>Each of these capabilities is delivered by a well-known technique. However, people doing these techniques often fail to get the desired result. There's a reason: each practice can be done in many different ways, each of which requires different supporting practices. People sloppily lump these very different practices under the same name. For example, I've identified 9 completely different practices that people all call "TDD," and 14 meanings of refactoring.
+      </p>
+      <p>In this session, we will explore an engineering practices dependency graph. While each team has a different context, this graph shows their common patterns. Using it, you can identify your team's actual current state, set goals, and chart out a roadmap to get there.
+      </p>
 
 - name: "Amy Jo Kim"
   lead: "Social game designer, community architect and startup coach"
