@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Program is finally out!"
+title: "Full program is up!"
 category: updates
 bodyClass: blog
 ---
