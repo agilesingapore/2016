@@ -46,20 +46,86 @@ bodyClass: home
 
 
       <h2>International Keynote Speakers</h2>
-        <ul>
-          {% for speaker in site.data.featured_speakers %}
-            {% if speaker.keynote == true %}
+      <ul>
+        {% for speaker in site.data.featured_speakers %}
+          {% if speaker.keynote == true %}
 
-              {% include speaker.html col-class="speaker col-sm-6 col-md-3" %}
+            {% include speaker.html col-class="speaker col-sm-6 col-md-3" %}
 
-            {% endif %}
-          {% endfor %}
-        </ul>
+          {% endif %}
+        {% endfor %}
+      </ul>
     </div>
     <div class="col-sm-12 text-center see-all-speakers">
       <a class="btn button reverse" href="https://confengine.com/agile-singapore-2016/schedule" onclick="trackOutboundLink('https://confengine.com/agile-singapore-2016/schedule'); return false;" target="_blank">
         See Program and Speakers</a>
     </div>
+
+    <h2>Exclusive Workshops</h2>
+    <div class="row">
+
+      <div class="col-md-4">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="workshop">
+              <div class="row">
+                <div class="col-xs-8"><p class="date">4-Oct-16, 9am to 5pm</p></div>
+                <div class="col-xs-4 text-right"><span class="label {{ site.data.misc.seats.refactoring.style }}">{{ site.data.misc.seats.refactoring.left }} Seats Left</span></div>
+              </div>
+
+              <h2>The Art of Refactoring</h2>
+              <p>
+                <span class="trainer-name">Joshua Kerievsky</span> - Author of Refactoring to Patterns and creator of Modern Agile<br>
+                <span class="trainer-name">Gerard Meszaros</span> - Author of xUnit Test Patterns: Refactoring Test Code
+              </p>
+              <a class="btn button reverse" href="workshop-refactoring-joshua.html">Find out more</a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-md-4">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="workshop">
+              <div class="row">
+                <div class="col-xs-8"><p class="date">5-Oct-16, 9am to 5pm</p></div>
+                <div class="col-xs-4 text-right"><span class="label {{ site.data.misc.seats.user_stories.style }}">{{ site.data.misc.seats.user_stories.left }} Seats Left</span></div>
+              </div>
+
+              <h2>How to get more value out of User Stories</h2>
+              <p><span class="trainer-name">Gojko Adzic</span> - Author of Specification by Example, Impact Mapping and more</p>
+              <a class="btn button reverse" href="workshop-user-stories-gojko.html">Find out more</a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-md-4">
+        <div class="panel panel-default">
+          <div class="panel-body">
+
+            <div class="workshop">
+              <div class="row">
+                <div class="col-xs-8"><p class="date">8-Oct-16, 9am to 5pm</p></div>
+                <div class="col-xs-4 text-right"><span class="label {{ site.data.misc.seats.game.style }}">{{ site.data.misc.seats.game.left }} Seats Left</span></div>
+              </div>
+
+              <h2>Game Thinking</h2>
+              <p class="subtitle">Expert tools & techniques to help you build a better product in less time</p>
+              <p><span class="trainer-name">Amy Jo Kim</span> - Social game designer, community architect and startup coach</p>
+              <a class="btn button reverse" href="workshop-game-thinking-amy.html">Find out more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
   </div>
 </section>
 
