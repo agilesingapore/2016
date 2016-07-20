@@ -130,3 +130,20 @@ h3 {
     margin-top: 0.5em;
   }
 }
+
+.news {
+  background: #f2f2f2;
+
+  @include rhythm-padding(1);
+
+  @include breakpoint(screen-xsm) {
+    @include rhythm-padding(2);
+  }
+  .col-sm-6 {
+    text-align: center;
+  }
+  h3 {
+    font-size: 1.25em;
+    font-weight: 500;
+  }
+}
