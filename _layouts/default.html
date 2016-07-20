@@ -19,6 +19,14 @@
   <link rel="stylesheet" type="text/css" href="/stylesheets/styles.css" media="screen">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
+  <script>
+    var trackOutboundLink = function(url) {
+       ga('send', 'event', 'outbound', 'click', url, {
+         'transport': 'beacon',
+         'hitCallback': function(){document.location = url;}
+       });
+    }
+  </script>
 
   <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
   <script type='text/javascript'>
@@ -53,7 +61,7 @@
             <li><a href="/about.html">About</a></li>
             <li><a href="/venue.html">Venue</a></li>
             <li><a href="/workshops.html">Workshops</a></li>
-            <li><a href="https://confengine.com/agile-singapore-2016/schedule" target="_blank">Program/Speakers</a></li>
+            <li><a href="https://confengine.com/agile-singapore-2016/schedule" target="_blank" onclick="trackOutboundLink('https://confengine.com/agile-singapore-2016/schedule'); return false;">Program/Speakers</a></li>
             <li><a href="/sponsors.html">Sponsors</a></li>
             <li><a href="/call-for-proposals-themes.html">Call for Proposals</a></li>
             <li><a href="/updates">Updates</a></li>
@@ -69,7 +77,7 @@
     <div class="container">
       <div class="col-xs-12 col-md-6 col-md-offset-3">
         <p><img src="/images/agile-2016-logo-footer.svg"></p>
-      <p>The <a href="http://2016.agilesingapore.org">Agile Singapore conference</a> is organised by a group of passionate individuals who also organises the <a href="http://meetup.com/Agile-Singapore" onClick="ga('send','event','website','click','Agile SG Meetup',0);">monthly Agile meetups in Singapore</a>.</p>
+      <p>The Agile Singapore conference is organised by a group of passionate individuals who also organises the <a href="http://meetup.com/Agile-Singapore" onClick="ga('send','event','website','click','Agile SG Meetup',0);">monthly Agile meetups in Singapore</a>.</p>
         <p><a href="mailto: organisers@agilesingapore.org" target="_blank" onClick="ga('send','event','email','click','Get in touch',0);">Get in touch</a> with us if you have any questions!</p>
     <p><strong>You may also like to follow us on:</strong></p>
     <ul>
