@@ -8793,62 +8793,66 @@ h3 {
   }
 }
 /* line 20, ../sass/_speakers.scss */
+.featured-speakers .themes {
+  padding-bottom: 30px;
+}
+/* line 24, ../sass/_speakers.scss */
 .featured-speakers .speaker-photo {
   margin: 0 0 10px 0;
 }
-/* line 22, ../sass/_speakers.scss */
+/* line 26, ../sass/_speakers.scss */
 .featured-speakers .speaker-photo img {
   width: 40%;
   height: inherit;
   border-radius: 50%;
 }
-/* line 29, ../sass/_speakers.scss */
+/* line 33, ../sass/_speakers.scss */
 .featured-speakers .speaker-lead {
   font-size: 0.85em;
 }
-/* line 32, ../sass/_speakers.scss */
+/* line 36, ../sass/_speakers.scss */
 .featured-speakers .speaker-lead .speaker-name {
   font-weight: 500;
   font-size: 1.2em;
   color: #343434;
 }
-/* line 38, ../sass/_speakers.scss */
+/* line 42, ../sass/_speakers.scss */
 .featured-speakers button {
   display: block;
 }
 
-/* line 45, ../sass/_speakers.scss */
+/* line 49, ../sass/_speakers.scss */
 .page-speakers-landing .featured-speakers li {
   text-align: left;
   margin-bottom: 2em;
   min-height: inherit;
 }
 @media (min-width: 768px) {
-  /* line 45, ../sass/_speakers.scss */
+  /* line 49, ../sass/_speakers.scss */
   .page-speakers-landing .featured-speakers li {
     min-height: 180px;
     margin-bottom: 0;
   }
 }
-/* line 55, ../sass/_speakers.scss */
+/* line 59, ../sass/_speakers.scss */
 .page-speakers-landing .featured-speakers .speaker-photo img {
   width: 30%;
   float: left;
 }
-/* line 60, ../sass/_speakers.scss */
+/* line 64, ../sass/_speakers.scss */
 .page-speakers-landing .featured-speakers .speaker-lead {
   text-align: left;
   float: left;
   margin-left: 10px;
   width: 64%;
 }
-/* line 66, ../sass/_speakers.scss */
+/* line 70, ../sass/_speakers.scss */
 .page-speakers-landing .featured-speakers .btn {
   margin: 10px 0 0 0;
 }
 
 @media (min-width: 480px) and (max-width: 767px) {
-  /* line 73, ../sass/_speakers.scss */
+  /* line 77, ../sass/_speakers.scss */
   .featured-speakers .col-xsm-6 {
     width: 49%;
     display: inline-block;
