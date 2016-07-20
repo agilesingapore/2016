@@ -8127,9 +8127,9 @@ h3 {
 
 /* line 80, ../sass/_global.scss */
 .button.cta-tickets {
-  font-size: 1.4em;
+  font-size: 1.2em;
   margin-bottom: 0.3em;
-  width: 200px;
+  width: 170px;
 }
 
 /* line 86, ../sass/_global.scss */
@@ -8340,7 +8340,7 @@ h3 {
 /* line 101, ../sass/_header.scss */
 .branding h1 {
   width: 100%;
-  max-width: 366px;
+  max-width: 326px;
   min-height: 78px;
   margin: 0 auto 20px;
   text-indent: -9999px;
@@ -8350,42 +8350,39 @@ h3 {
 @media (min-width: 768px) {
   /* line 101, ../sass/_header.scss */
   .branding h1 {
-    margin-top: 0.75em;
-    padding-top: 0em;
-    padding-bottom: 0em;
-    margin-bottom: 0.75em;
     background-size: 100%;
   }
 }
-/* line 115, ../sass/_header.scss */
+/* line 114, ../sass/_header.scss */
 .branding h1 a {
   display: block;
 }
-/* line 120, ../sass/_header.scss */
+/* line 119, ../sass/_header.scss */
 .branding h2 {
-  font-size: 1.5em;
+  font-size: 1.4em;
   line-height: 1.375em;
   margin-top: 0.75em;
   padding-top: 0em;
   padding-bottom: 0em;
   margin-bottom: 0.75em;
+  margin-top: 30px;
 }
 @media (min-width: 768px) {
-  /* line 120, ../sass/_header.scss */
+  /* line 119, ../sass/_header.scss */
   .branding h2 {
-    font-size: 2.2em;
+    font-size: 2em;
   }
 }
 /* line 131, ../sass/_header.scss */
 .branding h3 {
-  margin: 0 0 1em;
-  font-size: 1em;
+  margin: 0 0 0.5em;
+  font-size: 1.05em;
   line-height: 1.375em;
 }
 @media (min-width: 768px) {
   /* line 131, ../sass/_header.scss */
   .branding h3 {
-    font-size: 1.25em;
+    font-size: 1.15em;
   }
 }
 

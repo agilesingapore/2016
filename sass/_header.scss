@@ -100,7 +100,7 @@
   }
   h1 {
     width: 100%;
-    max-width: 366px;
+    max-width: 326px;
     min-height: 78px;
     margin: 0 auto 20px;
     text-indent: -9999px;
@@ -108,7 +108,6 @@
     background-size: 90%;
 
     @include breakpoint(screen-sm) {
-      @include rhythm(0.5);
       background-size: 100%;
     }
 
@@ -118,23 +117,24 @@
   }
 
   h2 {
-    font-size: 1.5em;
+    font-size: 1.4em;
     line-height: 1.375em;
 
     @include rhythm(0.5);
+    margin-top: 30px;
 
     @include breakpoint(screen-sm) {
-      font-size: 2.2em;
+      font-size: 2em;
     }
   }
 
   h3 {
-    margin: 0 0 1em;
-    font-size: 1em;
+    margin: 0 0 0.5em;
+    font-size: 1.05em;
     line-height: 1.375em;
 
     @include breakpoint(screen-sm) {
-      font-size: 1.25em;
+      font-size: 1.15em;
     }
   }
 }
