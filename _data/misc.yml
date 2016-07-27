@@ -8,3 +8,5 @@ seats:
   game:
     left: 13
     style: label-warning
+
+tickets_sold: 77
