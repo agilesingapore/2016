@@ -1,10 +1,10 @@
 seats:
   refactoring:
-    left: 22
+    left: 21
     style: label-success
   user_stories:
-    left: 3
+    left: 2
     style: label-danger
   game:
-    left: 14
+    left: 13
     style: label-warning
