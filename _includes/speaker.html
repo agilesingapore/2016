@@ -4,40 +4,6 @@
   </p>
   <p class="speaker-lead">
     <a href="{{speaker.url}}" target="_blank" class="speaker-name">{{speaker.name}}</a><br />
-    {{speaker.company}}<br />
     {{speaker.lead}}
-
-      {% if speaker.topics %}
-      <!--
-      <button type="button" class="btn button" data-toggle="modal" data-target="#model-{{speaker.photo_name}}">See Topics</button>
-      -->
-      {% else %}
-      <button type="button" class="btn button disabled">Waiting...</button>
-      {% endif %}
   </p>
-
-  {% if speaker.topics %}
-
-      <div class="modal fade" id="model-{{speaker.photo_name}}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-        <div class="modal-dialog modal-lg" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-              <h4 class="modal-title" id="myModalLabel">{{speaker.name}}</h4>
-            </div>
-            <div class="modal-body text-left">
-              {% for topic in speaker.topics %}
-                <h3>{{ topic.title }}</h3>
-                <p>{{ topic.abstract }}</p>
-              {% endfor %}
-              <hr/>
-              <h4>About {{speaker.name}}</h4>
-              {{speaker.bio}}
-            </div>
-          </div>
-        </div>
-      </div>
-
-  {% endif %}
-
 </li>

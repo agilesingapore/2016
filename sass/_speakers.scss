@@ -30,10 +30,14 @@
     min-height: 260px;
   }
 
+  .special-guest {
+    margin-bottom: 1em;
+  }
+
   .speaker-photo {
     margin: 0 0 10px 0;
     img {
-      width: 40%;
+      max-width: 120px;
       height: inherit;
       border-radius: 50%;
     }
