@@ -8081,6 +8081,15 @@ h3 {
 }
 
 /* line 43, ../sass/_global.scss */
+.perm-alert {
+  background-color: #d9534f;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 0.8em;
+}
+
+/* line 51, ../sass/_global.scss */
 .btn {
   display: block;
   padding: 0.75rem;
@@ -8088,58 +8097,58 @@ h3 {
   margin: 0 auto 1em auto;
 }
 @media (min-width: 600px) {
-  /* line 43, ../sass/_global.scss */
+  /* line 51, ../sass/_global.scss */
   .btn {
     font-size: 1em;
     display: inline-block;
   }
 }
 @media (min-width: 992px) {
-  /* line 43, ../sass/_global.scss */
+  /* line 51, ../sass/_global.scss */
   .btn {
     padding: 0.75rem 1rem;
   }
 }
 
-/* line 59, ../sass/_global.scss */
+/* line 67, ../sass/_global.scss */
 .button {
   background: #EC1D24;
   color: #fff;
 }
-/* line 63, ../sass/_global.scss */
+/* line 71, ../sass/_global.scss */
 .button:hover {
   color: #fff;
   text-decoration: underline;
 }
 
-/* line 69, ../sass/_global.scss */
+/* line 77, ../sass/_global.scss */
 .button.reverse {
   background: #fff;
   color: #EC1D24;
   border: 1px solid #EC1D24;
 }
 
-/* line 75, ../sass/_global.scss */
+/* line 83, ../sass/_global.scss */
 .button.disabled {
   background-color: #EEEEEE;
   color: #343434;
 }
 
-/* line 80, ../sass/_global.scss */
+/* line 88, ../sass/_global.scss */
 .button.cta-tickets {
   font-size: 0.9em;
   margin-bottom: 0.3em;
   width: 130px;
 }
 @media (min-width: 768px) {
-  /* line 80, ../sass/_global.scss */
+  /* line 88, ../sass/_global.scss */
   .button.cta-tickets {
     font-size: 1.2em;
     width: 170px;
   }
 }
 
-/* line 91, ../sass/_global.scss */
+/* line 99, ../sass/_global.scss */
 .jumbotron {
   background: #f2f2f2;
   margin-top: 50px;
@@ -8149,67 +8158,67 @@ h3 {
   padding-left: 0;
   padding-right: 0;
 }
-/* line 100, ../sass/_global.scss */
+/* line 108, ../sass/_global.scss */
 .jumbotron h1 {
   margin: 0 0 2rem 0;
   font-size: 4rem;
 }
-/* line 105, ../sass/_global.scss */
+/* line 113, ../sass/_global.scss */
 .jumbotron p {
   margin-bottom: 15px;
   font-size: 1.6rem;
   font-weight: 400;
 }
 
-/* line 112, ../sass/_global.scss */
+/* line 120, ../sass/_global.scss */
 .content {
   padding-top: 3em;
   padding-bottom: 3em;
 }
-/* line 115, ../sass/_global.scss */
+/* line 123, ../sass/_global.scss */
 .content h2 {
   text-align: center;
 }
 
-/* line 121, ../sass/_global.scss */
+/* line 129, ../sass/_global.scss */
 .updates .icon {
   margin-bottom: 0.2em;
 }
-/* line 124, ../sass/_global.scss */
+/* line 132, ../sass/_global.scss */
 .updates .news-summary {
   font-size: 1.2em;
   line-height: 1.2em;
   font-weight: lighter;
   margin-bottom: 0;
 }
-/* line 130, ../sass/_global.scss */
+/* line 138, ../sass/_global.scss */
 .updates .news-date {
   font-size: 0.8em;
   margin-bottom: 1.2em;
 }
-/* line 134, ../sass/_global.scss */
+/* line 142, ../sass/_global.scss */
 .updates .btn {
   margin-top: 0.5em;
 }
 
-/* line 139, ../sass/_global.scss */
+/* line 147, ../sass/_global.scss */
 .news {
   background: #f2f2f2;
   padding-top: 1.5em;
   padding-bottom: 1.5em;
 }
 @media (min-width: 600px) {
-  /* line 139, ../sass/_global.scss */
+  /* line 147, ../sass/_global.scss */
   .news {
     padding-top: 3em;
     padding-bottom: 3em;
   }
 }
-/* line 147, ../sass/_global.scss */
+/* line 155, ../sass/_global.scss */
 .news .col-sm-6 {
   text-align: center;
 }
-/* line 150, ../sass/_global.scss */
+/* line 158, ../sass/_global.scss */
 .news h3 {
   font-size: 1.25em;
   font-weight: 500;
