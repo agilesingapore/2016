@@ -1,12 +1,12 @@
 seats:
   refactoring:
-    left: 21
-    style: label-success
+    left: 17
+    style: label-warning
   user_stories:
     left: 2
     style: label-danger
   game:
-    left: 13
-    style: label-warning
+    left: 9
+    style: label-danger
 
-tickets_sold: 77
+tickets_sold: 83
