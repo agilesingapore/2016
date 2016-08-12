@@ -9157,7 +9157,11 @@ h3 {
 .site-footer .btn.facebook {
   background: #3B5998;
 }
-/* line 40, ../sass/_footer.scss */
+/* line 39, ../sass/_footer.scss */
+.site-footer .btn.linkedin {
+  background: #0077B5;
+}
+/* line 42, ../sass/_footer.scss */
 .site-footer .btn.twitter {
   background: #00ACED;
 }

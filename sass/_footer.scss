@@ -1,14 +1,14 @@
 .site-footer {
   @include rhythm-padding(2);
-  
-  @include breakpoint(screen-sm) {    
+
+  @include breakpoint(screen-sm) {
     @include rhythm-padding(2);
   }
 
   text-align: center;
   background: $agilesg-dgrey;
   color: #fff;
-  
+
   a:hover {
     color: $agilesg-red;
     text-decoration: underline;
@@ -36,7 +36,9 @@
   .btn.facebook {
     background: #3B5998;
   }
-
+  .btn.linkedin {
+    background: #0077B5;
+  }
   .btn.twitter {
     background: #00ACED;
   }
