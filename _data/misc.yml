@@ -3,7 +3,7 @@ seats:
     left: 14
     style: label-warning
   user_stories:
-    left: 1
+    left: 0
     style: label-danger
   game:
     left: 7
