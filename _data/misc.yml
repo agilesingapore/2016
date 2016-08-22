@@ -1,12 +1,12 @@
 seats:
   refactoring:
-    left: 14
-    style: label-warning
+    left: 10
+    style: label-danger
   user_stories:
     left: 0
     style: label-danger
   game:
-    left: 7
+    left: 5
     style: label-danger
 
 attendees: 159
