@@ -9290,8 +9290,8 @@ h3 {
 }
 
 /* line 2, ../sass/_venue.scss */
-.venue .venue-img {
-  margin-bottom: 2em;
+.venue h2 {
+  margin-top: 1em;
 }
 /* line 6, ../sass/_venue.scss */
 .venue .venue-address {
