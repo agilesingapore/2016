@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-us" style="height:100%">
+
+<head>
+  <link rel="stylesheet" type="text/css" href="/stylesheets/styles.css" media="screen">
+  <script>
+    function redUp() {
+      $("#red").html(parseInt($("#red").html()) + 1);
+    }
+    function greenUp() {
+      $("#green").html(parseInt($("#green").html()) + 1);
+    }
+  </script>
+</head>
+<body style="height:100%">
+  <table width="100%" style="height:100%;background-color:black">
+    <tr>
+      <td style="text-align:center;height:100%">
+        <button class="btn btn-default btn-danger" style="width:90%;height:90%" onclick="redUp()" type="submit"></button>
+      </td>
+      <td  style="text-align:center">
+        <button class="btn btn-default btn-success" type="submit" onclick="greenUp()" style="width:90%;height:90%"></button>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:center;height:10px">
+        <div id="red" style="color:white;font-size:0.6em">0</div>
+      </td>
+      <td  style="text-align:center">
+        <div id="green" style="color:white;font-size:0.6em">0</div>
+      </td>
+    </tr>
+  </table>
+
+
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="/javascripts/bootstrap.min.js"></script>
+</body>
+
+</html>
